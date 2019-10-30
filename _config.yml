@@ -13,8 +13,8 @@ picture: assets/images/giovana.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-external: false
+resume-url: assets/docs/resume.pdf
 
 url: https://giovana-morais.github.io
 
@@ -44,7 +44,7 @@ spotify: volta-seca
 github: giovana-morais
 # gitlab: mygitlab
 # lastfm: mylastfm
-stackoverflow: 9096782/giovana-morais
+# stackoverflow: 9096782/giovana-morais
 # quora: userquora
 # reddit: username
 #medium: medium
@@ -70,7 +70,7 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
@@ -88,7 +88,7 @@ show-tags: true
 related: true
 
 # Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
+post-advance-links: [blog, devblog]
 
 # show author block at the end of a post ?
 show-author: true
