@@ -14,10 +14,10 @@
             {% endif %}
         {% endif %}
 
-        {% if site.devblog == true %}
-            {% if page.title != "Dev Blog" %}
+        {% if site.dev == true %}
+            {% if page.title != "Dev" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/devblog">Dev Blog</a>
+                    <a class="link" href="{{ site.url }}/dev">Dev</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -49,7 +49,7 @@
 
         {% if site.resume == true %}
             <li class="item">
-                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
+                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Curr&iacute;culo</a>
             </li>
         {% endif %}
     </ul>
