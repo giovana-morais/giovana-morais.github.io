@@ -1,6 +1,6 @@
 {% if page.title == "Início"
    or page.title == "Blog"
-   or page.title == "Dev Blog"
+   or page.title == "Dev"
    or page.title == "Estudos"
    or page.title == "Projetos"
    or page.title == "Tags"
@@ -9,7 +9,7 @@
 {% if showHeader == true %}
     <header class="header-home {% if site.animation %}animated{% endif %}">
         {% if site.about %}
-            <a class="link" href="{{ site.url }}/about">
+            <a class="link" href="{{ site.url }}/sobre">
                 <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
             </a>
         {% else %}
