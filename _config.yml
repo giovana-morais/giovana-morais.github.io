@@ -18,7 +18,9 @@ resume-url: assets/docs/curriculo.pdf
 
 url: https://giovana-morais.github.io
 
-permalink: /:year/:title/
+# permalink: /:year/:title/
+permalink: /:title/
+# assets: assets/images/
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
