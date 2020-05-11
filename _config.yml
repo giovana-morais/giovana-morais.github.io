@@ -1,6 +1,6 @@
 # main text of home
 name: giovana morais
-bio: cientista sem jaleco
+bio: you're never too cool to learn something new
 
 # twitter summary info
 description: blogzinho do bem
@@ -57,7 +57,7 @@ email: giovana.vmorais@gmail.com
 authors:
     giovanamorais:
             name: Giovana Morais
-            bio: cientista sem jaleco
+            bio: you're never too cool to something new
             external-image: false
             picture: assets/images/giovana.jpg
             twitter: ohshitgi
