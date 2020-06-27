@@ -19,12 +19,10 @@ qualquer jeito igual eu via uma galera fazendo só pra ganhar a camiseta e falar
 
 Então se você quer participar também, fica aqui o meu exemplo de quem conseguiu
 sem realmente participar de projetos de código porque ainda não se sente 
-confortável com isso e tem um pouco de receio.
+confortável com isso e tem um pouco de receio. O importante é dar aquela força pro open-source. :wink:
 
-# PR 1: Tradução de um tutorial para o Rails Girls
-
-# PR 2: Tradução de um capítulo do livro Aprenda Go com Testes
-
-# PR 3: Adicionando PyLadies Sorocaba ao PyLadies Global
-
-# PR 3: Adicionando PyLadies Sorocaba à lista de entidades do Codamos 
+Lista de PRs:
+* [x] Tradução de um tutorial para o Rails Girls
+* [x] Tradução de um capítulo do livro Aprenda Go com Testes
+* [x] Adicionando PyLadies Sorocaba ao PyLadies Global
+* [x] Adicionando PyLadies Sorocaba à lista de entidades do Codamos 
