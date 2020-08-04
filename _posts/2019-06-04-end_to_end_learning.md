@@ -8,7 +8,7 @@ tag:
 - redes neurais
 - pesquisa
 author: giovanamorais
-category: estudos, artigos
+category: estudos
 ---
 
 Autores: Jordi Pons, Oriol Nieto, Matthew Prockup, Andreas Ehmann, Xavier Serra

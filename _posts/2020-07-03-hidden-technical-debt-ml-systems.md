@@ -6,7 +6,7 @@ headerImage: false
 tag:
 - machine learning
 author: giovanamorais
-category: estudos, artigos
+category: estudos
 ---
 
 Autores: D. Sculley, Gary Holt, Daniel Golovin, Eugene Davydov, Todd Phillips, Dietmar Ebner, Vinay Chaudhary,
