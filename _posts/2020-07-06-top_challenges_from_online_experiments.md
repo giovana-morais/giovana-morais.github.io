@@ -1,7 +1,7 @@
 ---
 title: "Top Challenges from the first Practical Online Controlled Experiments Summit"
 layout: post
-date: 2019-06-01
+date: 2019-07-05
 headerImage: false
 tag:
 - experimentos online
