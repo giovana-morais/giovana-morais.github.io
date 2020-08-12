@@ -1,7 +1,7 @@
 ---
 title: "Pequenas contribuições para o open-source"
 layout: post
-date: 2020-10-12 14:42
+date: 2020-08-12
 headerImage: false
 tag:
 - open-source
