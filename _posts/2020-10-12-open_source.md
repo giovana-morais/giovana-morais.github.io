@@ -1,7 +1,7 @@
 ---
 title: "Pequenas contribuições para o open-source"
 layout: post
-date: 2020-10-12
+date: 2020-10-12 14:42
 headerImage: false
 tag:
 - open-source
@@ -22,7 +22,7 @@ Essa lista é um lembrete pra mim de pequenas contribuições que encontrei em u
 arquivos perdidos. É de pouquinho em pouquinho
 que a gente cria uma comunidade legal pra todo mundo.
 
-As atividades estão completamente fora de ordem e foram apenas lembranças. É isso.
+As atividades estão completamente fora de ordem e foram apenas lembranças entre 2019 e 2020. É isso.
 
 ### Model-Baker
 Ajudei a introduzir o [`black`](https://github.com/model-bakers/model_bakery/pull/42)
