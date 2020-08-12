@@ -22,18 +22,10 @@
             {% endif %}
         {% endif %}
 
-        {% if site.projects == true %}
-            {% if page.title != "Projetos" %}
+        {% if site.leituras == true %}
+            {% if page.title != "Leituras" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/projetos">Projetos</a>
-                </li>
-            {% endif %}
-        {% endif %}
-
-        {% if site.estudos == true %}
-            {% if page.title != "Estudos" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/estudos">Estudos</a>
+                    <a class="link" href="{{ site.url }}/leituras">Leituras</a>
                 </li>
             {% endif %}
         {% endif %}

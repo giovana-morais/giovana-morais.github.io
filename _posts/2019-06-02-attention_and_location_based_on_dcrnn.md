@@ -4,9 +4,8 @@ layout: post
 date: 2019-06-02
 tag: 
 - mir
-- redes neurais
-- pesquisa
-category: estudos
+- tagging
+category: leituras
 author: giovanamorais
 ---
 Autores: Yong Xu, Qiuqiang Kong, Qiang Huang, Wenwu Wang, Mark D. Pumbley

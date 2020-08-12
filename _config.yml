@@ -8,18 +8,18 @@ description: blogzinho do bem
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/giovana.jpg
+picture: assets/images/giovana.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: false
 resume-url: assets/docs/curriculo.pdf
 
 url: https://giovana-morais.github.io
 
-# permalink: /:year/:title/
-permalink: /:title/
+permalink: /:year/:title/
+# permalink: /:title/
 # assets: assets/images/
 
 # To enable google analytics, supply your token below
@@ -37,21 +37,9 @@ permalink: /:title/
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
 twitter: ohshitgi
-# google: mygoogle
-# instagram: myinstagram
-# pinterest: mypinterest
 linkedin: giovana-morais
-# youtube: myyoutube
 spotify: volta-seca
 github: giovana-morais
-# gitlab: mygitlab
-# lastfm: mylastfm
-# stackoverflow: 9096782/giovana-morais
-# quora: userquora
-# reddit: username
-#medium: medium
-# vimeo: myvimeo
-# lanyrd: mylanyrd
 email: giovana.vmorais@gmail.com
 
 authors:
@@ -77,8 +65,7 @@ width: normal
 # if you don't need "about" or "blog", comment them out below
 about: true
 blog: true
-dev: true
-estudos: true
+leituras: true
 
 # do you want to show the "read time" of the posts?
 read-time: true

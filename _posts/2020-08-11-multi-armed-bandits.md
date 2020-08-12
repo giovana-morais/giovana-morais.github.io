@@ -4,12 +4,13 @@ layout: post
 date: 2020-08-11
 headerImage: false
 tag:
-- testes
-category: estudos
+- experimentos online
+category: leituras
 author: giovanamorais
 ---
 
 Autores: Brian Amadio
+
 Disponível em: [MultiThreaded](https://multithreaded.stitchfix.com/blog/2020/08/05/bandits/)
 
 O modelo de multi-armed bandit é uma simplificação de modelos de aprendizado por reforço, no qua um

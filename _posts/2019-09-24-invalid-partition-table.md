@@ -5,8 +5,6 @@ date: 2019-09-24
 headerImage: false
 tag:
 - SO
-- fdisk
-- outros
 category: blog
 author: giovanamorais
 ---

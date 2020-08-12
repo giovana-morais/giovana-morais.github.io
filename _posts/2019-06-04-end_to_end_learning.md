@@ -5,13 +5,13 @@ date: 2019-06-04
 headerImage: false
 tag:
 - mir
-- redes neurais
-- pesquisa
+- tagging
 author: giovanamorais
-category: estudos
+category: leituras
 ---
 
 Autores: Jordi Pons, Oriol Nieto, Matthew Prockup, Andreas Ehmann, Xavier Serra
+
 Disponível em: [ArXiv][arxiv]
 
 Nota aleatória: Eu amo muito esse artigo.
