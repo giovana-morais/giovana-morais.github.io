@@ -5,11 +5,12 @@ date: 2019-07-06
 headerImage: false
 tag:
 - experimentos online
-category: estudos
+category: leituras
 author: giovanamorais
 ---
 
 Autores: Eytan Bakshy, Dean Eckles, Michael S. Bernstein
+
 Disponível em: [ArXiV](https://arxiv.org/pdf/1409.3174v1.pdf)
 
 

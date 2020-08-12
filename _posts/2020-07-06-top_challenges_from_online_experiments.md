@@ -5,7 +5,7 @@ date: 2019-07-05
 headerImage: false
 tag:
 - experimentos online
-category: estudos
+category: leituras
 author: giovanamorais
 ---
 

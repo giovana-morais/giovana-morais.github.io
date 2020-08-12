@@ -5,13 +5,12 @@ date: 2019-06-01
 headerImage: false
 tag:
 - mir
-- redes neurais
-- pesquisa
-category: estudos
+category: leituras
 author: giovanamorais
 ---
 
 Autores: Keunwoo Choi, György Fazekas, Mark Sandler
+
 Disponível em: [ArXiV][arxiv]
 
 Muitas 

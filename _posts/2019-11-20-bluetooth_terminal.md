@@ -4,7 +4,9 @@ layout: post
 date: 2019-11-20 10:58
 image:
 headerImage: false
-tag: bluetooth, linha de comando
+tag: 
+- bluetooth
+- linha de comando
 category: blog
 author: giovanamorais
 description:

@@ -6,11 +6,12 @@ headerImage: false
 tag:
 - machine learning
 author: giovanamorais
-category: estudos
+category: leituras
 ---
 
 Autores: D. Sculley, Gary Holt, Daniel Golovin, Eugene Davydov, Todd Phillips, Dietmar Ebner, Vinay Chaudhary,
 Michael Young, Jean-Fraçois Crespo, Dan Dennison
+
 Disponível em: [NIPS](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)
 
 

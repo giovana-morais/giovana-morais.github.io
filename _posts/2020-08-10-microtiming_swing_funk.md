@@ -5,11 +5,12 @@ date: 2020-08-10
 headerImage: false
 tag:
 - mir
-category: estudos
+category: leituras
 author: giovanamorais
 ---
 
 Autores: Lorenz Kilchenmann, Olivier Senn
+
 Disponível em: [Frontiers in Psychology](https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01232/full)
 
 O entretenimento musical pode ser um gatilho para movimentos corporais nos humanos.
