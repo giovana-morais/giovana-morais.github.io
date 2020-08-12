@@ -244,3 +244,4 @@ conectei de novo tudo funcionou sem usar o root mesmo. :relaxed:
 
 Bom, acho que é isso. Em último caso, não se esqueça de olhar a
 Wiki na seção de [Troubleshooting](https://wiki.archlinux.org/index.php/Bluetooth_headset#Troubleshooting!)
+ou mesmo o seu log por meio de `journalctl -u <nomeservico>.service`.
