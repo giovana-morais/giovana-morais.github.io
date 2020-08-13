@@ -20,10 +20,10 @@ Se eu consegui ganhar uma camisetinha do Hacktoberfest, qualquer um consegue. J�
 [Adrienne Friend](https://github.com/adriennefriend/imposter-syndrome-disclaimer): 
 
 {% highlight text %}
-	Pode existir uma vozinha na sua cabeça dizendo que você não está pronto; que você
-	precisa fazer mais um tutorial ou aprender outro framework ou escrever mais algumas
-	postagens no seu blog antes de poder ajudar no projeto. Mas podemos afirmar que esse 
-	não é o caso.
+Pode existir uma vozinha na sua cabeça dizendo que você não está pronto; que você
+precisa fazer mais um tutorial ou aprender outro framework ou escrever mais algumas
+postagens no seu blog antes de poder ajudar no projeto. Mas podemos afirmar que esse 
+não é o caso.
 {% endhighlight %}
 
 Essa lista é um lembrete pra mim de pequenas contribuições que encontrei em uns
