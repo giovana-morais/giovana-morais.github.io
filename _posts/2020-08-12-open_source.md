@@ -13,10 +13,18 @@ author: giovanamorais
 O open-source é sempre meio assustador pra quem vê de fora. A gente tem
 aquela imagem de quem atua nos projetos de código livre são apenas pessoas muito
 evoluídas e intocáveis, quando na verdade é todo mundo gente como a gente. 
-Existem um milhão de maneiras de contribuir e parece que repetir nunca é suficiente.
+Existem um milhão de maneiras de contribuir e parece que repetir nunca é suficiente. 
 
 Decidi deixar essa lista para me auto-motivar e talvez motivar outra pessoa simultaneamente.
-Se eu consegui ganhar uma camisetinha do Hacktoberfest, qualquer um consegue.
+Se eu consegui ganhar uma camisetinha do Hacktoberfest, qualquer um consegue. Já dizia 
+[Adrienne Friend](https://github.com/adriennefriend/imposter-syndrome-disclaimer): 
+
+{% highlight text %}
+	Pode existir uma vozinha na sua cabeça dizendo que você não está pronto; que você
+	precisa fazer mais um tutorial ou aprender outro framework ou escrever mais algumas
+	postagens no seu blog antes de poder ajudar no projeto. Mas podemos afirmar que esse 
+	não é o caso.
+{% endhighlight %}
 
 Essa lista é um lembrete pra mim de pequenas contribuições que encontrei em uns
 arquivos perdidos. É de pouquinho em pouquinho
@@ -45,7 +53,6 @@ pontos de conflitos e aí cada um queria reformatar o código do outro, mas tudo
 foi resolvido e o pull request está lá esperando para ser aprovado. :relieved:
 
 ### PyLadies Brasil
-
 Comecei a contribuir para os projetos do PyLadies Brasil. Como primeira tarefa, 
 coloquei pra rodar um [bot](https://probot.github.io/apps/stale/) que checa as datas de issues e
 pull requests e aí fica o que estiver obsoleto. Isso vai ser bom pra dar uma
@@ -55,7 +62,6 @@ Eu nunca tinha mexido com um bot do github (mais especificamente um github
 action) e fiquei curiosa pra saber o que
 mais existe desse universo aparentemente gigante. Vou dar uma fuçada mais pra
 frente.
-
 
 Além disso me aventurei pela primeira vez com os templates de issue e pull
 request. Sempre vi na empresa que trabalho e tinha uma vaga ideia do
