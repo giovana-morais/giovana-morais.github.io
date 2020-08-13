@@ -1,7 +1,7 @@
 ---
 title: "Designing and Deploying Online Field Experiments"
 layout: post
-date: 2019-07-06
+date: 2020-07-06
 headerImage: false
 tag:
 - experimentos online
