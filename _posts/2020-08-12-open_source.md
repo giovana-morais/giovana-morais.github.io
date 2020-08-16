@@ -17,7 +17,7 @@ Existem um milhão de maneiras de contribuir e parece que repetir nunca é sufic
 
 Decidi deixar essa lista para me auto-motivar e talvez motivar outra pessoa simultaneamente.
 Se eu consegui ganhar uma camisetinha do Hacktoberfest, qualquer um consegue. Já dizia 
-[Adrienne Friend](https://github.com/adriennefriend/imposter-syndrome-disclaimer): 
+[Adrienne Lowe](https://github.com/adriennefriend/imposter-syndrome-disclaimer): 
 
 {% highlight text %}
 Pode existir uma vozinha na sua cabeça dizendo que você não está pronto; que você
