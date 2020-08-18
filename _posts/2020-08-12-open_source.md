@@ -88,3 +88,10 @@ de como sincronizar o seu fork com a branch principal do projeto
 ### Python 3.8
 Logo que o Python 3.8 foi lançado, contribuí com algumas traduções de alguns módulos.
 
+---
+
+É de pouquinho em pouquinho que a gente se ajuda mesmo. O importante é não
+desanimar, porque tem um monte de gente que, como a gente, acredita que não é
+bom o suficiente e que não consegue contribuir. A gente sempre consegue e o mais importante é não esquecer que não estamos sozinhos.
+
+Se outra pessoa além de mim está lendo isso, espero que você se sinta um pouco mais confortável sobre ajudar em projetos de código aberto. :heart:
