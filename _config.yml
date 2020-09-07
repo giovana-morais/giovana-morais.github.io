@@ -8,7 +8,7 @@ description: blogzinho do bem
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/giovana.png
+picture: ../assets/images/giovana.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -47,7 +47,7 @@ authors:
             name: Giovana Morais
             bio: you're never too cool to something new
             external-image: false
-            picture: assets/images/giovana.jpg
+            picture: ../assets/images/giovana.png
             twitter: ohshitgi
 
 # do you want a larger site? change the option below
