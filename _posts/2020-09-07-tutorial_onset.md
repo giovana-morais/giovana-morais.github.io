@@ -116,4 +116,19 @@ relacionados.
 resume a achar o máximo local acima do threshold.
 
 
+### 4. Como escolher o melhor método
 
+Os métodos são dependentes do tipo de sinal no qual vão ser aplicados. Dado
+isso, os autores fazem as seguintes considerações:
+
+* Se o sinal é muito percussivo (ex, bateria), então métodos de domínio do 
+tempo são adequados;
+* Por outro lado, métodos espectrais como os baseados em distribuição de fase
+e diferença espectral performam muito bem em transientes com tons;
+* A diferença espectral no domínio complexo parece ser uma boa escolha em 
+geral, mascom uma pequena adição de custo computacional;
+* Se for necessária precisão temporal, métodos baseados em wavelets podem ser
+úteis, ainda mais se combinados com outros métodos;
+* Se for aceitável um alto custo computacional e um conjunto de treinamento 
+estiver disponível, métodos estatísticos têm os melhores resultados gerais e
+são menos dependentes em um conjunto particular de parâmetros.
