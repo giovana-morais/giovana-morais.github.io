@@ -16,8 +16,6 @@ Mark B. Sandler
 
 ## Definições básicas:
 
-![note]('../../assets/images/2020/note.jpg')
-
 * **Ataque da nota:** intervalo no qual a amplitude do envelope espectral 
 aumenta
 * **Transiente da nota:** intervalos curtos no qual o sinal 
