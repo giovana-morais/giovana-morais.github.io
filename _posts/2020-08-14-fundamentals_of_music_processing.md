@@ -34,6 +34,35 @@ Autor: Meinard Müller
 ## 2. Análise de Sinais com Fourier
 ---
 ## 3. Sincronização de Música
+
+Música pode ser descrita e representada de diferentes formas, como partituras,
+representações simbólicas e gravações, que abrem espaço para diferentes 
+interpretações.
+A ideia intuitiva da sincronização é conseguir encontrar, dada uma posição
+em uma representação musical, a posição correspondente em outra representação.
+
+
+### 3.1 Atributos de áudio
+
+* Atributos obtidos de um espectrograma ao converter a frequência de eixo linear
+(medido em Hertz) para um eixo logarítmico (medido em pitches).
+
+#### 3.1.1 Espectrograma de Frequência-Logarítmica
+
+* *Equal-tempered scale*: cada potava é dividida em 12 unidades logaritmicamente (?)
+espaçadas.
+
+#### 3.1.2 Atributos de Chroma
+
+**3.1.2.1 Compressão logarítmica** 
+
+* Alternativa ao uso da escala em decibéis. Propõe um realce de valores mais baixos, mas
+que ainda são relevantes, para que estes não sejam ofuscados pelos valores mais altos.
+* Função definida como \Theta_\gama(v) = log(1 + \gama * v), aplicada a todos os valores
+quando é necessária uma representação com valores positivos, como um espectrograma ou
+cromagrama. Quanto maior o valor de \gama maior a compressão.
+* Atributos de chroma são invariantes a timbre até um certo ponto. (curioso)
+
 ---
 ## 4. Análise de Estrutura Musical
 ---
@@ -77,18 +106,33 @@ fazer a análise de energia do sinal procurando por aumentos repentinos.
 detecção quando consideramos a energia como algo linear. O ouvido humano 
 percebe o som em uma escala logarítmica e, portanto, para endereçar o problema
 precisamos aplicar o logaritmo pros valores da energia. Seja por meio de uma
-mudança de escala ou de compressão logarítmica. A desvantagem dessa abordagem é que ruídos podem também ser amplificados.
-* Sons com vibrato ou tremolo podem ser um problema pra métodos baseados em energia, uma vez que sua variação acaba enganando o método de detecção, que 
+mudança de escala ou de compressão logarítmica. A desvantagem dessa abordagem 
+é que ruídos podem também ser amplificados.
+* Sons com vibrato ou tremolo podem ser um problema pra métodos baseados em 
+energia, uma vez que sua variação acaba enganando o método de detecção, que 
 entende vários onsets em vez de apenas um. 
 
 #### 6.1.2 Métodos baseados em espectro
 * Música polifônica dificulta a tarefa uma vez que eventos de baixa intensidade
 podem estar mascarados atrás de eventos de alta intensidade. Além disso, há o
-vibrato, que pode ser até mais forte que o ataque de outras notas. Por isso, métodos baseados em energia podem não ser os melhores.
+vibrato, que pode ser até mais forte que o ataque de outras notas. Por isso, métodos 
+baseados em energia podem não ser os melhores.
 * A ideia desse tipo de método e ir pro domínio da frequência e então capturar
 as mudanças no conteúdo espectral.
 * Para detectar as mudanças espectrais no sinal, computamos a diferença entre
-vetores espectrais subsequentes. Isso é conhecido como **fluxo espectral**.
+vetores espectrais subsequentes. Isso é conhecido como **fluxo espectral**. 
+* O procedimento básico é 
+	- realçar os componentes espectrais mais fracos usando
+a compressão logarítmica. O uso da compressão logarítmica faz ainda mais sentido
+quando pensamos que a energia geralmente fica concentrada em frequências mais
+baixas, que são ressaltadas pela compressão. O único cuidado a ser tomado é 
+não acabar usando um parâmetro \gama muito alto, de forma que ruídos também
+sejam realçados e atrapalhem a análise;
+	- computar a derivada discreta do espectro comprimido, considerando apenas
+diferenças positivas (aumento de intensidade) e descartando as negativas;
+* Existem passos posteriores que podem ainda melhorar o desempenho de, 
+por exemplo, a identificação de picos no sinal, removendo flutuações baixas
+por meio de uma função média local;
 
 
 #### 6.1.3 Métodos baseados em fase
