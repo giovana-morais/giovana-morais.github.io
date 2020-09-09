@@ -63,7 +63,7 @@ original.
 	"altura".
 	- *atributos espectrais:* O fluxo espectral, por exemplo, que é calculado a 
 	como a distância entre espectros sucessivos do STFT, tem um efeito de levar
-	em conta aenas as frequẽncias onde há um aumento de energia, enfatizando
+	em conta apenas as frequẽncias onde há um aumento de energia, enfatizando
 	onsets em vez de offsets.
 	- *atributos espectrais usando fase:* levar a fase em consideração pode 
 	também ser importante uma vez que a estrutura temporal do sinal está 
@@ -124,7 +124,7 @@ tempo são adequados;
 * Por outro lado, métodos espectrais como os baseados em distribuição de fase
 e diferença espectral performam muito bem em transientes com tons;
 * A diferença espectral no domínio complexo parece ser uma boa escolha em 
-geral, mascom uma pequena adição de custo computacional;
+geral, mas com uma pequena adição de custo computacional;
 * Se for necessária precisão temporal, métodos baseados em wavelets podem ser
 úteis, ainda mais se combinados com outros métodos;
 * Se for aceitável um alto custo computacional e um conjunto de treinamento 
