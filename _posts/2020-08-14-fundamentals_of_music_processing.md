@@ -62,6 +62,8 @@ que ainda são relevantes, para que estes não sejam ofuscados pelos valores mai
 quando é necessária uma representação com valores positivos, como um espectrograma ou
 cromagrama. Quanto maior o valor de \gama maior a compressão.
 * Atributos de chroma são invariantes a timbre até um certo ponto. (curioso)
+* Essa compressão é bastante usada quando precisamos de atributos que 
+"simulem" nossa percepção.
 
 ---
 ## 4. Análise de Estrutura Musical
@@ -120,14 +122,14 @@ baseados em energia podem não ser os melhores.
 * A ideia desse tipo de método e ir pro domínio da frequência e então capturar
 as mudanças no conteúdo espectral.
 * Para detectar as mudanças espectrais no sinal, computamos a diferença entre
-vetores espectrais subsequentes. Isso é conhecido como **fluxo espectral**. 
+vetores espectrais subsequentes. Isso é conhecido como **fluxo espectral**.
 * O procedimento básico é 
 	- realçar os componentes espectrais mais fracos usando
 a compressão logarítmica. O uso da compressão logarítmica faz ainda mais sentido
-quando pensamos que a energia geralmente fica concentrada em frequências mais
-baixas, que são ressaltadas pela compressão. O único cuidado a ser tomado é 
+quando pensamos que algumas energias não tem amplitude alta o suficiente para
+serem notadas em uma escala normal. O único cuidado a ser tomado é 
 não acabar usando um parâmetro \gama muito alto, de forma que ruídos também
-sejam realçados e atrapalhem a análise;
+sejam realçados e atrapalhem a análise.
 	- computar a derivada discreta do espectro comprimido, considerando apenas
 diferenças positivas (aumento de intensidade) e descartando as negativas;
 * Existem passos posteriores que podem ainda melhorar o desempenho de, 
@@ -136,6 +138,13 @@ por meio de uma função média local;
 
 
 #### 6.1.3 Métodos baseados em fase
+* Tons estacionários têm uma fase estável, enquanto transientes têm uma fase 
+instável.
+* Uma fase \phi determina como uma senoide de frequência Fs tem que ser 
+deslocada pra melhor se correlacionar com o sinal janelado correspondente
+ao n^th frame;
+
+
 #### 6.1.4 Métodos de domínio complexo
 
 ### 6.2 Análise de Tempo
