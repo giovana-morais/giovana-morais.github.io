@@ -77,6 +77,9 @@ enquanto escuta uma música, às vezes até de maneira inconsciente. A batida é
 descrita como uma sequência de pulsos percebidos, que tipicamente são igualmente
 espaçados no tempo e especificados pela *fase* e pelo *período*.
 
+Tem esse [vídeo perfeito](https://www.youtube.com/watch?v=FmwpkdcAXl0) do próprio
+Müller sobre tempo e beat tracking. :top:
+
 
 ### 6.1 Detecção de onsets
 
@@ -172,7 +175,21 @@ O tempograma é calculado no domínio do tempo, com o sinal discretizado. Assumi
 pulsos têm a mesma posição que os onsets, o primeiro passo é usar uma função novidade
 para determinar as posições dos onsets.
 
+Considerando a frequência \omega Hz e um espaçamento entre as amostras de T, o _tempo_ \tau
+em BPM (beats per minute) é dado por \tau = 60*\omega.
+
+O tempo pode ter harmônicos e subharmônicos, uma vez que há algumas maneiras diferentes
+nas quais podemos perceber o beat e o tempo. Essas maneiras diferentes de percepção
+envolvem níveis de pulso maiores e menores. sendo múltiplos de \tau.
+
 #### 6.2.2 Tempograma de Fourier
+
+Para estimar a periodicidade, usamos a DTFT para calcular o coeficiente complexo de
+Fourier F(n,\omega).
+
+O tempograma de Fourier consegue estimar o tempo \tau para trechos diferentes
+da música, contemplando os casos em que há o rubato.
+
 #### 6.2.3 Tempograma de autocorrelação
 #### 6.2.4 Tempograma de cíclico
 
