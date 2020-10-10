@@ -1,7 +1,7 @@
 ---
 title: "Fundamentals of Music Processing"
 layout: post
-date: 2020-08-13
+date: 2020-10-08
 headerImage: false
 tag:
 - mir
@@ -185,16 +185,49 @@ envolvem níveis de pulso maiores e menores. sendo múltiplos de \tau.
 #### 6.2.2 Tempograma de Fourier
 
 Para estimar a periodicidade, usamos a DTFT para calcular o coeficiente complexo de
-Fourier F(n,\omega).
+Fourier F(n,\omega). Buscamos aqui a correlação entre o coeficiente de Fourier e
+uma seção (vizinhança) da função novidade, ou seja, a posição do tempograma é
+dada pela correlação entre esses dois termos.
 
-O tempograma de Fourier consegue estimar o tempo \tau para trechos diferentes
-da música, contemplando os casos em que há o rubato.
+Definido por:
+
+\Tau^F(n, \tau) := |F(n, \tau/60)|,
+
+onde F é o coeficiente de Fourier.
+
+
+Essa categoria de tempograma geralmente indica os harmônicos do tempo, mas
+suprime os subharmônicos. Em aplicações práticas, só o intervalo entre 30 e
+600 BPM (extremos inclusos é coberto), devido à nossa percepção de tempo.
 
 #### 6.2.3 Tempograma de autocorrelação
+
+A autocorrelação é uma ferramente pra indicar a similaridade de um sinal
+com ele mesmo com um deslocamento (_shift_) no eixo do tempo.  Também é conhecido
+como produto interno deslizante.
+
+É definido por
+
+R_{xx}(l) = \sum_{m \in Z) x(m)x(m-l),
+
+onde l é o deslocamento no tempo, conhecido também por _lag_.
+
+* R_{xx}(l) é máxima pra l = 0;
+* A autocorrelação grande pra um dado _lag_ indica a periodicidade do sinal naquele período
+de tempo
+
+
+
 #### 6.2.4 Tempograma de cíclico
 
 ### 6.3 Beat and Pulse Tracking
 #### 6.3.1 Predominant Local Pulse
+
+PLP é uma melhoria da função novidade, que consegue recuperar os valores de onsets
+mais suaves, também se comportando bem em relação às mudanças locais de tempo ao escolher
+o nível de pulso predominante do trecho do sinal.
+A amplitude da curva do PLP representa a confiança naquela taxa de beats.
+
 #### 6.3.2 Beat Tracking by Dynamic Programming
 #### 6.3.3 Adaptative Windowing
 
