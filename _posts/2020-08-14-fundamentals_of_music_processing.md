@@ -32,6 +32,58 @@ Autor: Meinard Müller
 ## 1. Representações Musicais
 ---
 ## 2. Análise de Sinais com Fourier
+
+A análise de Fourier busca decompor um sinal complexo, como é o caso do sinal
+musical, em blocos de componentes senoidais, que tem uma interpretação interessante
+e explícita por conta das frequências. Ou seja, passamos a analisar um sinal não
+mais em função de seu tempo, mas em função das suas frequências.
+
+### 2.1 Fourier Transform in a Nutshell
+
+A ideia principal da análise de Fourier é comparar o sinal com senoides de frequência
+\omega Hz variadas. Para cada comparação é calculado o coeficiente de magnitude d_{\omega},
+que representa a similaridade entre o sinal e a senoide de frequência \omega,
+e uma fase \phi_{\omega}.
+
+A transformada de Fourier permite a reconstrução perfeita do sinal original a partir
+de d_{\omega} e \phi_{\omega}.
+
+#### 2.1.1 Transformada de Fourier para Sinais Analógicos
+
+**2.1.1.1 O papel da fase**
+
+* Dado uma senoide g: \mathbb{R} \rightarrow \mathbb{R}, tal que
+g(t) := A \sin(2\pi(\omega t - \phi)) para t \in \mathbb{R}, onde A representa
+a amplitude do sinal, \omega a frequência em Hz e \phi a fase, medida em
+radianos normalizados com 1 correspondendo a um ângulo de 360 graus.
+* Na análise de Fourier, a senoide usada é normalizada em relação a sua energia
+média ao usarmos A = \sqrt{2}. Então para cada \phi, temos
+\cos_{\omega, \phi}(t) = \sqrt{2}\cos(2\pi(\omega t - \phi)). Como a senoide é
+periódica, consideramos a fase apenas no intervalo [0, 1).
+* Ao termos a frequência fixada, podemos usar a fase para deslocar a senoide
+no tempo e vermos de qual maneira ela tem a maior similaridade com o sinal que
+estamos analisando.
+
+**2.1.1.2 Calculando Similaridade com Integrais**
+* A similaridade é dada por meio da integral do produto de duas funções:
+\int_{t\in\mathbb{R}}f(t)\cdot g(t)
+
+**2.1.1.3 Primeira Definição da Transformada de Fourier**
+* Basicamente, precisamos calcular a similaridade entre o sinal de áudio que
+temos e a senoide \cos_{\omega,\phi}.
+* Para cada frequência \omega fixa, temos
+* d_{\omega} = \max_{\phi \in [0, 1)}\left(\int_{t \in \mathbb{R}} f(t) \cos_{\omega, \phi}(t)dt\right)
+* \phi_{\omega} = \argmax_{\phi in [0, 1)}\left(\int_{t \in \mathbb{R}} f(t) \cos_{\omega, \phi}(t)dt\right)
+* A transformada de Fourier é definida pela coleção de todos os coeficientes d_{\omega} e \phi_{omega}.
+
+**2.1.1.4 Números Complexos**
+N/A
+
+**2.1.1.5 Definição Complexa da Transformada de Fourier**
+* A inserção dos números complexos faz com que consigamos codificar tanto a
+magnitude d_{\omega} quando a fase \phi_{\omega} em um único número complexo
+representado como uma coordenada polar.
+
 ---
 ## 3. Sincronização de Música
 
