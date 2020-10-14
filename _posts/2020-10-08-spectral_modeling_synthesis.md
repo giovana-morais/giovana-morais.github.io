@@ -34,3 +34,29 @@ repentinos no tempo, como onsets percussivos, sons "glitchies". Embora os transi
 ser modeloados por meio de senoides, o número de componentes necessárias é altíssmo e com as fases
 e amplitudes corretas. Para evitar isso, foi criado um modelo para transientes que trabalha com ruído
 e as senoides, ou seja, o modelo (S+N+T).
+
+## Additive Synthesis (Early Sinusoidal Modeling)
+
+[Daniel Bernoulli](https://ccrma.stanford.edu/~jos/sasp/Daniel_Bernoulli_s_Modal_Decomposition.html#sec:bernoulli)
+foi o primeiro a acreditar que qualquer vibração acústica poderia ser
+representada como uma superposição de modos simples, o que caracteriza o termo
+síntese aditiva, na qual qualquer som s(t) pode ser expressado como uma soma de
+senoides.
+
+y(t) = \sum_{i=1}^N A_i(t)\sin[\theta_i, (t)], onde
+
+* A_i = amplitude do i-ésimo parcial no tempo t
+* \theta_i(t) = \int_0^t \omega_i(t)dt + \phi_i(0)
+* \omega_i(t) = d\theta_i(t)/dt = frequência em radianos do i-ésimo parcial i vs tempo
+* \phi_i(0) = fase no i-ésimo parcial no tempo 0
+
+Para reproduzir um sinal dado, primeiro precisamos analisá-lo para determinar as
+amplitudes e as trajetórias de frequências pra cada componente. A fase só será
+relevante para frames que contenham ataques ou mudanças abruptas no sinal.
+
+### Following Spectral Peaks
+
+Picos senoidais são medidos no tempo em uma sequência de FFTs, sendo agrupados
+em "faixas". O resultado final é uma coleção de envelopes de frequência e amplitude
+no tempo.
+A taxa de amostragem desses envelopes é igual a taxa de frames da análise.
