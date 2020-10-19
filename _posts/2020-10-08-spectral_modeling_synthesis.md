@@ -13,7 +13,6 @@ author: giovanamorais
 Seção do livro [Spectral Audio Signal Processing](https://ccrma.stanford.edu/~jos/sasp/sasp.html),
 do Julius O. Smith III.
 
-
 Para sons periódicos, as componentes senoidais são harmônicas da frequência fundamental \omega_1.
 
 Sons aperiódicos são representados como uma integra de senoides em todas as frequências da audição humana
@@ -58,5 +57,44 @@ relevante para frames que contenham ataques ou mudanças abruptas no sinal.
 
 Picos senoidais são medidos no tempo em uma sequência de FFTs, sendo agrupados
 em "faixas". O resultado final é uma coleção de envelopes de frequência e amplitude
-no tempo.
-A taxa de amostragem desses envelopes é igual a taxa de frames da análise.
+no tempo. A taxa de amostragem desses envelopes é igual a taxa de frames da
+análise (se o tempo entre FFTs é \delta t= 5s, então a taxa de frame é definida por
+[1](1/)\delta t = 200H Hz).
+
+A ressíntese feita por uma IFFT é feita sem modificações, contudo se for necessário ou
+desejado usar osciladores senoidais, os envelopes precisam ser interpolados na taxa
+de amostragem do sinal. (<- **por quê?**)
+
+A fase pode ser descartada em momentos constantes da música e, quando necessário,
+ser redefinida como a integral da frequência instantânea.
+$$
+\hat{\Phi}_k(n) = \Phi_k(n-1) + 2\pi T \hat{F}_k(n)
+$$
+
+#### Sinusoidal Peak Finding
+*
+
+#### Tracking Sinusoidal Peaks in a Sequence of FFTs
+* Os picos precisam ser associados de frame em frame
+* Um sistema de tracking encontram amplitudes, frequências centrais e algumas vezes
+a fase.
+* A interpolação quadrade é usada pra achar picos de magnitude espectral.
+* As senoides são ressintetizadas por meiod a IFFT
+
+## Sines + Noise Modeling
+* Quando um pico espectral é denso, as componentes senoidais não são percebidas
+individualmente, então é suficiente representar uma estatística perceptual dela.
+* O ruído branco inserido é filtrado e somado a senoide
+*
+
+Sumário:
+* Achar os picos nos frames da STFT
+	- Nesse passo, detectamos quantos picos forem possíveis e só depois analisamos
+	quais se comportam bem ou não, ou seja, quais não são ruídos.
+*
+
+## Glossário
+* Envelopes: é o "contorno" do elemento no tempo. É uma primeira
+aproximação da altura estimada, uma vez que descreve como um som varia no tempo.
+Pode ser aplicado a amplitudes, a frequências e a tons (_pitches_).
+
