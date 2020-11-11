@@ -4,7 +4,7 @@ layout: post
 date: 2019-11-20 10:58
 image:
 headerImage: false
-tag: 
+tag:
 - bluetooth
 - linha de comando
 category: blog
@@ -38,7 +38,7 @@ que achei, foi o tutorial (em inglês) de como ligar
 Como acessei fontes em inglês, cá está meu pequeno tutorial em português de
 como conectar ao bluetooth pelo terminal.
 
-![img](../assets/images/girl.gif)
+![img](../../assets/images/gifs/girl.gif)
 
 ---
 
