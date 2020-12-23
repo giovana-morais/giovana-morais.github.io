@@ -11,6 +11,7 @@ author: giovanamorais
 
 # Sumário:
 * [The Need for Machine Learning Design Patterns](#the-need-for-machine-learning-design-patterns)
+* [Data Representation Design Patterns](#data-representation-design-patterns)
 
 # The Need for Machine Learning Design Patterns
 
@@ -57,3 +58,58 @@ Embora o modelo seja feito apenas por uma equipe, diversas partes envolvidas tê
 uma ideia diferente do que é o "sucesso" do modelo.
 
 
+---
+
+# Data Representation Design Patterns
+
+* _Embeddings_: representação de dados que redes neurais profundas conseguem aprender
+sozinhas. Essa representação final é densa e com dimensão menor que a entrada, que
+pode ser esparso.
+* Extração de features: processo de aprender os atributos que representam os dados
+de entrada.
+* _Feature Cross_: quando se usa uma combinação linear de mais de um atributo na
+entrada do modelo, o que simplifica o aprendizado e as relações entre variáveis
+categóricas com mais de um valor;
+* _Hashed Feature_: padrão para representações de dados que não são fixas ou
+aprendidas (como no caso de embeddings).
+
+## Simple Data Representations
+
+### Entradas numéricas
+
+Escalar dados numéricos para o intervalo de [-1,1] é necessário para otimizar
+as operações do gradiente descendente e fazer com que a convergência seja mais
+rápida. O intervalo [-1,1] também oferece uma precisão de ponto flutuante maior.
+Escalar os dados também faz com que atributos diferentes não tenham uma diferença
+relativa tão grande.
+
+Existem diferentes métodos de normalização (_scaling_) das variáveis. Algumas
+dessas transformações são lineares como
+* Min-max: o valor é escalado de forma que o menor valor se torne -1 e o maior
++1. O problema dessa abordagem é que os maiores e menores valores geralmente
+são _outliers_, o que faz com que os dados fiquem concentrados em um intervalo
+muito pequeno entre [-1,1]. Funciona muito bem para datasets que são
+uniformemente distribuídos.
+* Clippingi junto com min-max: ajuda a corrigir o problema dos _outliers_.
+Valores que fazem mais "sentido" são escolhidos como mínimo e máximo do _dataset_
+e, a partir disso, valores maiores ou menores são substituídos pelo máximo e mínimo
+respectivamente.
+* Normalização Z-score: usa a média e o desvio padrão pra normalizar o dataset,
+já tratando os casos de _outliers_. `x_normalizado = (x - media_x)/desvio_x`.
+Funciona bem pra dados normalmente distribuídos.
+* Winsorizing: Faz o clipping do dataset de acordo com, por exemplo, os valores
+do décimo e do nonagésimo percentil. A partir daí, faz a escala min-max.
+
+Além das transformações lineares, existem as não-lineares que são usadas para
+os casos em que os dados são enviesados (_skewed_) e, portanto, não têm
+uma distribuição normal. Algumas transformações usadas antes da normalização:
+* Logarítmo: tirar o logarítmo das variáveis faz com que as que têm menor valor
+tenham um ganho maior do que variáveis com valor alto;
+* Sigmoide e expansões polinomiais: a partir do logarítmo, podemos aplicar outras
+transformações, como essas expansões que acabam jogando o valor pro intervalo
+desejado.
+* Bucketize: a ideia é criar um histograma e a partir dele fazer uma equalização.
+* Transformada Box-Cox: essa transformada busca tirar a dependência da variância
+da magnitude dos valores na distribuição.
+
+#### Arrays de Números
