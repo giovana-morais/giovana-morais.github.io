@@ -113,3 +113,82 @@ desejado.
 da magnitude dos valores na distribuição.
 
 #### Arrays de Números
+
+O tratamento para os casos em que os arrays não têm tamanho fixo geralmente são
+* Usar estatísticas (média, tamanho, mínimo, máximo etc) como descritores.
+* Representar o array em termos da sua distribuição.
+* Se o array for ordenado, pegar, por exemplo, apenas os últimos valores e
+quando o tamanho do array for menor que a quantidade de posições que desejamos
+pegar, inserimos um padding.
+
+### Entradas Categóricas
+
+Para entradas categóricos, faz sentido usar o _one-hot encoding_ em vez de só
+criar variáveis numéricas pra cada categoria porque o segundo caso faz com que
+o sistema entenda que essas variáveis são relacionadas e ordernadas de alguma forma,
+sendo que não é o caso.
+
+O _one-hot encoding_ é recomendados nos seguintes casos
+* Quando o índice numérico é um índice
+* Quando a relação entre a entrada e a saída (rótulo) não é contínua
+* Quando é vantajoso agrupar a variável numérica em intervalos
+* Quando precisamos tratar diferentes valores da entrada numérica como
+  efeitos diferentes no rótulo. Supondo que você queira definir se um bebê nasceu
+  com um peso saudável. Para isso, precisa saber se nasceu apenas uma criança
+  ou se são gêmeos, trigêmeos etc. O valor considerado "saudável" depende da
+  quantidade de crianças.
+
+## Design Pattern #1: Hashed Feature
+
+O problema do _one-hot encoding_ é que você precisa saber as categorias *antes*,
+o que nem sempre é verdade. Mesmo na divisão treino/teste pode ser que categorias
+do teste não estejam no treino. Além disso, a cardinalidade pode crescer tanto quanto
+for possível, uma vez que não sabemos qual o número máximo de categorias
+
+Criar essa hash de features permite que:
+1. entradas ainda desconhecidas caiam no mesmo intervalo que entradas semelhantes. Embora isso faça com que a predição não seja precisa, faz também com que não seja completamente aleatória.
+2. a cardinalidade seja distribuída entre os intervalos (buckets).
+
+O trade-off desse padrão é justamente a falta de precisão do modelo. Uma regra
+geral para isso é definir um tamanho de bucket em que haja aproximadamente 5
+entradas, dessa forma mantendo uma precisão mais ou menos ok. Mesmo assim, esse
+método de hash não é indicado se o vocabulário *já é conhecido*.
+
+A escolha do número de buckets deve ser tratada como um hiperparâmetro, já que
+laria de problema pra problema.
+
+Dicas:
+* A ordem das operações importa. Primeiro o módulo e depois o valor absoluto deve
+deve ser aplicado pra evitar erro de _overflow_ por conta da faixa de representação.
+* É bom aplicar uma regularização L2 para tratar casos
+em que algum bucket fique vazio sem que o modelo fique numericamente instável.
+
+## Design Patterns #2: Embeddings
+
+O _one-hot encoding_, além de criar uma matriz esparsa muito grande pro caso de
+haver muitas categorias, ainda tem o problema de tratar as variáveis como
+independentes e esses são os pontos que os _embeddings_ buscam resolver.
+
+Embeddings são uma maneira de representar dados não-numéricos de maneira
+significativa, de forma a facilitar o tratamento dentro dos modelos de aprendizado
+de máquina, mapeando as categorias em vetores densos de uma cardinalidade menor
+e fixa. Na prática, os _embeddings_ capturam a similaridade dos itens e por
+causa disso também funcionam como substitutos para técnicas de _clustering_ e de
+redução de dimensionalidade, como o PCA. Como são aprendidos como uma camada
+oculta de uma rede neural, esses vetores passam por todo o processo de gradiente
+descendente e isso significa que representam a mais eficiente representação de
+baixa dimensionalidade para aquela tarefa em específico.
+
+O trade-off desse caso é a perda de informação ao reduzir a dimensionalidade do
+dado. Em troca, temos a informação de proximidade e contexto dos itens. Quanto
+menor o tamanho do embedding, maior a perda de informação. Quando o embedding é
+muito grande, muita informação contextual é perdida (é mais difícil encontrar
+semelhanças).
+
+A regra prática usada é a raiz quarta do número total de elementos categóricos únicos
+ou $$1.6*\sqrt{elementos\_unicos}$$.
+
+
+
+### Autoencoders
+
