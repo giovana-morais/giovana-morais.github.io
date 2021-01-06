@@ -163,7 +163,7 @@ deve ser aplicado pra evitar erro de _overflow_ por conta da faixa de representa
 * É bom aplicar uma regularização L2 para tratar casos
 em que algum bucket fique vazio sem que o modelo fique numericamente instável.
 
-## Design Patterns #2: Embeddings
+## Design Pattern #2: Embeddings
 
 O _one-hot encoding_, além de criar uma matriz esparsa muito grande pro caso de
 haver muitas categorias, ainda tem o problema de tratar as variáveis como
@@ -188,7 +188,38 @@ semelhanças).
 A regra prática usada é a raiz quarta do número total de elementos categóricos únicos
 ou $$1.6*\sqrt{elementos\_unicos}$$.
 
+Em resumo, os _embeddings_ aprendem a preservar a informação mais relevante da
+tarefa: se for descrição de imagem, então a tarefa é aprender com o contexto
+dos elementos da imagem se relacionam com o texto. Na arquitetura de um
+autoencoder, o rótulo é o mesmo que o atributo, então a redução de dimensionalidade
+tenta aprender tudo que é importante sem um contexto específico.
 
+## Design Pattern #3: Feature Cross
 
-### Autoencoders
+Feature Cross é o processo de se combinar features categóricas
+de forma que essa combinação seja uma nova feature sintética, tornando
+algumas relações entre os atributos mais explícitos. Modelos
+mais complexos coseguem inferir essas combinações de features, mas usando esse
+padrão de feature cross é possível atingir resultados similares com modelos
+muito mais simples, aumentando a velocidade do treinamento para uma performance
+de mesma qualidade.
 
+Devemos tomar cuidado pra não combinar features que já são correlatas porque,
+se esse for o caso, a combinação não vai trazer nenhuma informação nova ao modelo.
+
+Dependendo de onde vamos usar essa nova feature (por exemplo, uma rede neural),
+teremos que fazer uma das opções
+1. Gerar o one-hot encoding
+2. Gerar o embedding
+
+Esse padrão funciona bem com dados massivos, o que pode fazer com que a diferença
+do tempo de treinamento (ao aplicar um modelo linear) seja bastante expressiva.
+
+A aplicação desse padrão para features numéricas só pode ser feita a partir
+de um pré-processamento, como a separação em intervalos (bucketize).
+
+Como a feature cross trata da combinação de features, isso pode fazer com que
+a entrada do modelo se torne esparsa. Pra lidar com isso é possível criar um
+embedding da entrada, fazendo com que seja generalizada além de voltar a ser densa.
+
+## Design Pattern #4: Multimodal Input
