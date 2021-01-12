@@ -223,3 +223,10 @@ a entrada do modelo se torne esparsa. Pra lidar com isso é possível criar um
 embedding da entrada, fazendo com que seja generalizada além de voltar a ser densa.
 
 ## Design Pattern #4: Multimodal Input
+Esse tipo de padrão é usado quando temos entradas em formatos diferentes e
+ambas as entradas são aceitas dentro do modelo (por
+exemplo, uma imagem e seus metadados). Uma abordagem comum, de novo, são os
+_embeddings_ ou a combinação das features em uma entrada só.
+
+Representar o mesmo dado de maneiras diferentes para o modelo pode fazer com
+que ele consiga identificar padrões diferentes na entrada.
