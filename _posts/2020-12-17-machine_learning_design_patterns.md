@@ -12,6 +12,7 @@ author: giovanamorais
 # Sumário:
 * [The Need for Machine Learning Design Patterns](#the-need-for-machine-learning-design-patterns)
 * [Data Representation Design Patterns](#data-representation-design-patterns)
+* [Problem Representation Design Patterns](#problem-representation-design-patterns)
 
 # The Need for Machine Learning Design Patterns
 
@@ -230,3 +231,36 @@ _embeddings_ ou a combinação das features em uma entrada só.
 
 Representar o mesmo dado de maneiras diferentes para o modelo pode fazer com
 que ele consiga identificar padrões diferentes na entrada.
+
+# Problem Representation Design Patterns
+
+## Design Pattern #5: Reframing
+Esse padrão se refere à mudança da representação da saída de um algoritmo.
+Um problema de regressão sendo visto como um problema de classificação e vice-versa.
+
+Um dos exemplos citados é predição do volume de chuva. Determinar um número
+específico pode ser muito difícil, porque o mesmo conjunto de features pode
+gerar um resultado diferente. Como esse modelo é probabilístico, o melhor a fazer
+em vez de tentar predizer o valor exato do volume de chuva, é predizer a probabilidade
+do volume. Dessa forma, em vez de um problema de regressão, temos um problema de
+classificação multi-classe.
+
+Uma distribuição ser multimodal (tem vários picos) é um forte indício de aplicar
+o reframing para um problema de classificação.
+
+O reframing de regressão para classificação por meio da criação
+de buckets (intervalos). Dessa forma, quanto maior o número de intervalos,
+maior a precisão do modelo, já que os intervalos são menores, e, por isso,
+também faz sentido pensar que se você precisa de intervalos de dado muito
+pequenos é melhor usar a regressão mesmo.
+
+Independente do reframing feito é importante considerar as limitações dos dados
+e o risco de introduzir viés de rótulos. Além disso, é importante considerar
+que problemas de regressão geralmente precisam de mais amostras de treinamento
+do que problemas de classificação.
+
+Uma alternativa ao reframing é o _multitask learning_. Em vez de escolher entre
+a regressão e a classificação, a ideia é fazer ambos. No contexto de uma rede
+neural, por exemplo, isso pode ser feito ao compartilhar o modelo ou ao compartilhar
+algumas camadas do modelo ou mesmo ao ter modelos diferentes que são "forçados" a
+ter parâmetros parecidos, aplicando alguma função de perda e de regularização igual.
