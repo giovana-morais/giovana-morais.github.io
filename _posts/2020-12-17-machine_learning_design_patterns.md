@@ -264,3 +264,30 @@ a regressão e a classificação, a ideia é fazer ambos. No contexto de uma red
 neural, por exemplo, isso pode ser feito ao compartilhar o modelo ou ao compartilhar
 algumas camadas do modelo ou mesmo ao ter modelos diferentes que são "forçados" a
 ter parâmetros parecidos, aplicando alguma função de perda e de regularização igual.
+
+## Design Pattern #6: Multilabel
+Um padrão de _multilabel_ ou multi-rótulo se refere a problemas que podemos
+atribuir mais de um rótulo para o mesmo exemplo de treinamento. Esse padrão
+trata, principalmente, de redes neurais e problemas de, por exemplo, _tagging_.
+
+A solução para esse problema é basicamente usar a sigmoide em vez da softmax
+como a função de ativação para a saída do modelo. Como os rótulos tem que ser
+multi-hot encoded, a saída será um vetor de probabilidades entre 0 e 1, onde
+cada uma das posições se refere a um dos rótulos do problema.
+
+Ao contrário da sigmoide, a softmax não é indicada nesses casos porque sempre
+retorna um array com uma distribuição das probabilidades, somando sempre 1. Já a
+sigmoide retorna um array com a probabilidade pra cada uma das saídas. Nesse
+caso, devemos ter um threshold de probabilidade e então considerar como uma
+predição toda probabilidade que está acima desse valor.
+
+Ao usarmos sigmoide para uma classificação binária ou multi-rótulo, o ideal é
+usar a função de perda `binary_crossentropy`. No fim, o problema multi-rótulo é
+entendido como vários pequenos problemas binários e por isso essa função
+funciona bem.
+
+Sistemas multi-rótulo devem ser usados quando:
+* Um único exemplo pode ser associado a mais de um rótulo
+* Um único exemplo pode ter vários rótulos hierárquicos
+* Rotuladores descrevem o mesmo item de maneiras diferentes, sendo que todas as
+  interpretações são precisas (rótulos sobrepostos)
