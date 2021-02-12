@@ -67,6 +67,12 @@ Agora vamos para um áudio com mais instrumentos. O que você acha
 da forma de onda? Será que é possível olhar apenas para a amplitude e dizer onde
 cada nota começa?
 
+<audio src="/assets/audio/2021/choice.wav" controls preload></audio>
+
+![choice](../../assets/images/2021/waveform_choice.png)
+
+Um último exemplo completamente caótico:
+
 <audio src="/assets/audio/2021/hungarian_dance.wav" controls preload></audio>
 
 ![hung_dance](../../assets/images/2021/hung_dance.png)
@@ -146,9 +152,20 @@ $$ \Delta_{Log Energia} = \left|\log{(E_w^x(n+1))} - \log{(E_w^x(n))}\right|_{\g
 0}
 $$
 
-No geral, a função novidade baseada em energia funciona bem apenas para sinais
-monofônicos. Ao adicionarmos mais instrumentos, a detecção passa a errar a
+Aplicando essa função ao nosso sinal do trompete, podemos ver
+que as marcações de onset, mesmo sem aplicarmos a detecção de picos,
+estão bastante alinhadas com os inícios das notas tocadas. Isso é porque, no
+geral, a função novidade baseada em energia funciona bem em sinais
+monofônicos. Uma rápida observação: o sinal da música foi normalizado para
+que ficasse mais simples de visualizar onde os onsets foram apontados.
+
+
+![energia_trumpet](../../assets/images/2021/nov_energia.png)
+
+Ao adicionarmos mais instrumentos, a detecção passa a errar a
 posição dos onsets porque as energias dos sinais se misturam e se somam.
+
+![energia_choice](../../assets/images/2021/nov_energia_choice.png)
 
 ## Função novidade baseada em espectro
 
@@ -313,14 +330,14 @@ Os notebooks com os códigos completos estão neste repositório.
 Muito obrigada!
 
 # Referências
-Müller, Meinard. Fundamentals of Music Processing
+Bello, Julio. A Tutorial on Onset Detection
 
 Lecher, Alexander. An Introduction to Audio Content Analysis
 
-Bello, Julio. An Tutorial on Onset Detection
-
 Leveau, Methodology and Tools for the Evaluation of Automatic Onset Detection
 Algorithms in Music
+
+Müller, Meinard. Fundamentals of Music Processing
 
 [Music Onset Detection](https://www.eecs.qmul.ac.uk/~josh/documents/2010/Zhou%20Reiss%20-%20Music%20Onset%20Detection%202010.pdf)
 
