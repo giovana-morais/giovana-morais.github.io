@@ -291,3 +291,52 @@ Sistemas multi-rótulo devem ser usados quando:
 * Um único exemplo pode ter vários rótulos hierárquicos
 * Rotuladores descrevem o mesmo item de maneiras diferentes, sendo que todas as
   interpretações são precisas (rótulos sobrepostos)
+
+
+## Design Pattern #7: Ensembles
+Há três tipos de erro que o modelo pode apresentar:
+* erros irredutíveis: causados por ruído nos dados, na maneira como enquadramos
+  o problema ou exemplos de treinamento ruim.
+* erros de viés: o modelo não consegue aprender a relação entre os atributos e a
+  saída do modelo e por isso erra para novos exemplos. É o que causa o
+  _underfit_, ou seja, performa mal para os exemplos de treinamento e de teste.
+* erro de variância: o modelo fica viciado nas amostras com as quais treinou e
+  tem um desempenho quase que perfeito, mas na hora de generalizar isso para
+  outros exemplos falha. É o _overfitting_.
+
+Em modelos mais simples e com uma quantidade não tão massiva de dados, há um
+trade-off entre variância e viés. Se você aumenta muito a complexidade do seu
+modelo, ele provavelmente vai cair em um overfitting e ter muita variância. Se
+você simplificar demais aumenta o viés, mas diminui a variância.
+
+A ideia do _ensemble_ é combinar modelos diferentes para diminuir tanto a
+variância quanto o viés.
+
+1. Bagging: processamento paralelo dos dados pra cada um dos modelos usados.
+   Então é tirada a média dos modelos e esse é a saída final. Modelos como
+   _Random Forest_ usam esse tipo de abordagem. Esse método ajuda a reduzir a
+   variância do modelo. O bagging no pior caso vai performar tão bem quanto
+   qualquer um de seus modelos e, no melhor caso, muito melhor. O segredo é a
+   diversidade dos modelos. Em modelos mais estáveis, como kNN, modelos
+   lineares, SVMs e etc, o bagging é menos efetivo.
+2. Boosting: ao contrário do bagging, a ideia do boosting é construir um modelo
+   que tenha mais capacidade que os modelos individuais. Cada novo modelo tenta
+   aprender com os exemplos em que o modelo anterior errou.
+3. Stacking: nesse caso, modelos diferentes rodam no conjunto de dados inteiro e
+   depois disso um segundo modelo é treinado usando as saídas dos modelos
+   iniciais como features, aprendendo a combinar essas saídas pra diminuir o erro
+   de treinamento.
+
+O problema de usar ensembles é o aumento da complexidade (agora em vez de um só
+modelo, estamos usando `k` modelos), a escolha dos modelos e a diminuição da
+interpretabilidade. Além disso, a escolha da técnica de ensemble depende do
+problema, por exemplo ao combinar dois modelos com erros muito correlacionados
+em bagging não vai adiantar anda.
+
+| Problema                       | Método Ensemble   |
+| ------------------------------ | ----------------- |
+| Alto viés (underfitting)       | Boosting          |
+| Alta variância (overfitting)   | Bagging           |
+
+
+## Design Pattern #8: Cascade
