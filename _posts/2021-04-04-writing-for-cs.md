@@ -17,6 +17,8 @@ Autor: Justin Zobel
 - [Reading and Reviewing](#reading-and-reviewing)
 
 # Getting Started
+
+## Checklist
 - O seu tópico é claramente uma atividade de pesquisa? É consistente com o
   objetivo da pesquisa?
 - Como o projeto é diferente de, por exemplo, desenvolvimento de software,
