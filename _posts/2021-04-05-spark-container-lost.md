@@ -9,10 +9,8 @@ author: giovanamorais
 category: blog
 ---
 
-O Spark é basicamente um lixão que você não entende porra nenhuma do que
-tá rolando quando essa MERDA decide dar um erro. A única mensagem que aparece
-é um "erro" e você que se foda. Bom, dado isso, aqui vai uma lista de possíveis
-erros que podem estar rolando na sua aplicação pra esse MERDINHA parar DO NADA
+Tem muito erro que o Spark dá que simplesmente não tem uma mensagem decente
+e aí você que se vire pra entender. Pois bem, o erro de hoje é o nosso querido:
 
 # "Exit status: -100. Diagnostics: Container released on a *lost* node"
 Essa PORRA desse erro muito provavelmente significa que você tá tendo problemas
