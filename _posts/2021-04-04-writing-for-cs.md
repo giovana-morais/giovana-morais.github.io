@@ -74,3 +74,70 @@ mergulhar naquele conteúdo.
 - Existem ambiguidades séries ou inconsistências?
 
 
+# Hypotheses, Questions and Evidences
+
+> The great tragedy of Science, the slaying of a beautiful hypothesis by an ugly
+> fact.
+
+## Hipóteses
+Hipóteses não podem ser vagas porque, dessa forma, não é possível confirmá-las
+ou desprová-las. Uma hipótese deve, acima de tudo, ser testável e capaz de
+falsificação (ou seja, deve ser possível encontrar um contra-exemplo). 
+
+Uma hipótese vaga:
+* Q-lists são melhores que P-lists.
+
+Uma hipótese testável:
+* Como uma estrutura de busca em memória, a performance de uma Q-list é mais
+  rápida e mais compacta que uma P-list.
+Se for preciso mais especificações sobre o que foi assumido:
+* Foi assumido que os dados tem um padrão de acesso desbalanceado, ou seja, a
+  maioria dos acessos é feita em uma porção pequena dos dados.
+
+Hipótese vagas:
+* A performance da Q-list e da P-list são comparáveis.
+* Essa linguagem criada é fácil de aprender.
+
+Durante a construção da hipótese, pode ser interessante tentar defender a sua
+hipótese como se estivesse defendendo para um colega. Você mesmo tenta achar as
+falhas. Esse processo pode te ajudar a juntar material para provar para o leitor
+que seus argumentos são convincentes e corretos.
+
+## Evidências e experimentos
+Formas de evidência
+* **Prova**: demonstrações formais de que sua hipótese está correta (ou errada).
+* **Modelos**: uma descrição matemática da hipótese ou de alguns de seus
+  componentes, como um algoritmo cujas propriedades estão sendo consideradas.
+* **Simulações**: uma implementação (parcial ou não) de uma forma simplificada
+  da hipótese, na qual as dificuldades de uma implementação total são deixadas
+  de lado por aproximação ou omissão.
+* **Experimento**: teste total da hipótese baseado na implementação total da
+  proposta e em dados reais.
+
+Evidências experimentais não comprovam nenhuma hipótese, não importa o quão
+volumosas são, mas um contra-exemplo é suficiente pra desprovar uma hipótese.
+
+## Checklist
+ Sobre hipóteses e questões
+- Que fenômenos ou propriedades estão sendo investigados? Por que são 
+  interessantes?
+- O objetivo da pesquisa foi articulado? Quais são as hipóteses específicas e as
+  perguntas de pesquisa? Esses elementos estão conectados de forma convincente
+  uns aos outros?
+- De que maneira o trabalho é inovador? Ele reflete o que propõe?
+- O que desprovaria (?) a hipótese? Isso tem alguma consequência improvável?
+- Quais são as assumpções? Elas são sensíveis?
+- O trabalho foi criticamente questionado? Você está convencido de que realmente
+  é ciência?
+
+Sobre evidência e medição
+- Que formas de evidência são usadas? Se for um modelo ou uma simulação, o que
+  demonstra que os resultados têm validade prática?
+- De que forma a evidência é medida? Os métodos de medição são objetivos,
+  apropriados e razoáveis?
+- Que compromições ou simplificações são inerentes à sua escolha de medição?
+- Os resultados serão preditos? 
+- Qual o argumento que conecta a evidência à hipótese?
+- Em que extensão os resultados positivos confirmam a hipótese de maneira
+  convincente? Os resultados negativos vão desprovar sua hipótese?
+- Quais são as prováveis fraquezas ou limitações da sua abordagem?
