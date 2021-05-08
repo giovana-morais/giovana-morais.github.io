@@ -15,6 +15,7 @@ Autor: Justin Zobel
 # Sumário
 - [Getting Started](#getting-started)
 - [Reading and Reviewing](#reading-and-reviewing)
+- [Hypotheses, Questions and Evidences](#hypotheses-questions-and-evidences)
 
 # Getting Started
 
