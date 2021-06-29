@@ -16,6 +16,7 @@ Autor: Justin Zobel
 - [Getting Started](#getting-started)
 - [Reading and Reviewing](#reading-and-reviewing)
 - [Hypotheses, Questions and Evidences](#hypotheses-questions-and-evidences)
+- [Writing a Paper](#writing-a-paper)
 
 # Getting Started
 
@@ -46,12 +47,12 @@ confiança de que é factível?
 
 Manter o ceticismo é importante porque é com isso que a gente faz ciência. Por
 isso a leitura que deve ser feita é uma leitura crítica do conteúdo. Idealmente,
-as leituras devem ser divididas em duas fases: exploratória e crítica. 
+as leituras devem ser divididas em duas fases: exploratória e crítica.
 
-A fase de leitura exploratória é quando você sai lendo de tudo, mas sem se 
+A fase de leitura exploratória é quando você sai lendo de tudo, mas sem se
 aprofundar. É uma leitura superficial para entender a proposta do artigo, a
 metodologia e quais os resultados são apresentados. É quando você define quais
-os artigos de fato você tem interesse em se aprofundar. 
+os artigos de fato você tem interesse em se aprofundar.
 
 A leitura crítica envolve analisar melhor e tentar entender os detalhes do texto
 apresentado, de forma a conseguir criticar o conteúdo (não de uma maneira
@@ -66,7 +67,7 @@ mergulhar naquele conteúdo.
 - A contribuição é de interesse?
 - Os resultados estão corretos?
 - A literatura apropriada é discutida?
-- A metodologia realmente responde a pergunta inicial? 
+- A metodologia realmente responde a pergunta inicial?
 - As propostas e os resultados são criticamente analisados?
 - As conclusões apropriadas são feitas a partir do resultado ou existem
   possíveis interpretações?
@@ -83,7 +84,7 @@ mergulhar naquele conteúdo.
 ## Hipóteses
 Hipóteses não podem ser vagas porque, dessa forma, não é possível confirmá-las
 ou desprová-las. Uma hipótese deve, acima de tudo, ser testável e capaz de
-falsificação (ou seja, deve ser possível encontrar um contra-exemplo). 
+falsificação (ou seja, deve ser possível encontrar um contra-exemplo).
 
 Uma hipótese vaga:
 * Q-lists são melhores que P-lists.
@@ -120,7 +121,7 @@ volumosas são, mas um contra-exemplo é suficiente pra desprovar uma hipótese.
 
 ## Checklist
  Sobre hipóteses e questões
-- Que fenômenos ou propriedades estão sendo investigados? Por que são 
+- Que fenômenos ou propriedades estão sendo investigados? Por que são
   interessantes?
 - O objetivo da pesquisa foi articulado? Quais são as hipóteses específicas e as
   perguntas de pesquisa? Esses elementos estão conectados de forma convincente
@@ -137,8 +138,90 @@ Sobre evidência e medição
 - De que forma a evidência é medida? Os métodos de medição são objetivos,
   apropriados e razoáveis?
 - Que compromições ou simplificações são inerentes à sua escolha de medição?
-- Os resultados serão preditos? 
+- Os resultados serão preditos?
 - Qual o argumento que conecta a evidência à hipótese?
 - Em que extensão os resultados positivos confirmam a hipótese de maneira
   convincente? Os resultados negativos vão desprovar sua hipótese?
 - Quais são as prováveis fraquezas ou limitações da sua abordagem?
+
+# Writing a Paper
+
+A ideia é basicamente escrever o primeiro rascunho o quanto antes. Primeiro
+entenda a estrutura do texto e então já comece a escrever dentro dessas
+estruturas. Autores que são muito críticos com o primeiro rascunho avançam
+pouco. Além disso, a melhor forma de saber se você entendeu um assunto é
+tentando escrever sobre ela.
+
+Ao escrever é bom considerar o público. Tenha em mente ao começar: o que você
+quer que a pessoa que está lendo aprenda ao final do seu texto? O que você mesmo
+estava tentando aprender quando começou a pesquisar aquilo? Isso pode fazer com
+que seu texto fique mais interessante e mais focado.
+
+Uma dica dada é escrever em frases curtas tudo que sabe e tem a dizer sobre
+aquela seção do texto. Depois edite e arrume o estilo. Exemplo dado de texto
+inicial:
+
+> In-memory sorting algorithms require random access to memory. For large files
+> stored on disk, random access is impratically slow. These files must be sorted
+> in blocks. Each block is loaded into memory and sorted in turn. Sorted blocks
+> are written to temporary files. These temporary files are then merged. There
+> may be many files, but in practice the merge can be completed in one pass.
+> Thus each recorded is read twice and written twice. Temporary space is
+> required for a complete copy of the original file.
+
+Em uma tese, cada capítulo tem sua própria estrutura, que varia de acordo com o
+objetivo do próprio capítulo. É legal ver outras teses da sua área pra ter uma
+ideia de como estruturar a sua própria.
+
+Na hora de fazer uma revisão bibliográfica é legal olhar para os artigos também
+de maneira crítica, fazendo anotações de seus acertos e erros. Isso além de
+aprimorar o ceticismo, faz com que os artigos não sejam tidos como verdades
+absolutas. Além disso, ao escrever a revisão bibliográfica dessa maneira, você
+ajuda a pessoa que está entrando em contato com aquela área pela primeira vez a
+entender o conteúdo e entender quais as referências são bom ponto de partida.
+
+A revisão bibliográfica é grande parte do texto. Se você terminou de escrever
+essa sessão, já deveria entender que terminou boa parte da escrita da sua tese.
+
+> A conclusion is that which concludes, on the end. Conclusions are the
+> inferences drawn from a collection of information. Write "Conclusions" not
+> "Conclusion". If you have no conclusions to drawn, write "Summary", which is
+> often an appropriate way to end a thesis chapter.
+
+### Checklist
+Sobre o escopo:
+- Em que fórum ou tipo de fórum você pretende publicar seu trabalho?
+- O escopo do trabalho está bem definido?
+- Existe uma única e clara questão de pesquisa ou objetivo? Você consegue
+  identificar qual aspecto do trabalho é de maior interesse ou impacto?
+- Como você imagina um trabalho bem-sucedido? E um trabalho que falha? Você
+  consegue antecipar a forma da saída em cada um dos casos?
+- Quem é o público alvo? Qual tem que ser o conhecimento do público sobre a área
+  para que o trabalho consiga ser apreciado?
+- Os papéis do participantes estão claros? Quais são as suas atividades e quais
+  são dos outros?
+
+Sobre como a escrita é estruturada:
+- Que forma a sua escrita vai ter? Que outros artigos ou teses você vai querer
+  que lembre?
+- Você está escrevendo uma estrutura bem definida e organizada? Quais são as
+  seções e como elas se relacionam entre si?
+- O título, resumo e introdução definem o contexto para o trabalho?
+- Você estabeleceu uma conexão entre a questão, os trabalhos relacionados,
+  métodos e resultados? Isto é, você definiu a forma que a narrativa vai tomar?
+- Tem algo de incomum na organização da escrita e, se sim, tem uma razão para
+  essa outra organização e como ela vai ser explicada ao leitor?
+- Se você está escrevendo uma tese, existem requisitos de formatação?
+
+Sobre sua abordagem ao trabalho:
+- Você está mantendo um log ou um caderno?
+- Você trabalha com uma agenda explícita, com datas e objetivos?
+- Seus prazos deixam tempo o suficente para o seu orientador te dar feedback nos
+  rascunhos ou para os seus colegas contribuírem com o material?
+- Você tem uma abordagem efetiva para rapidamente gerar texto?
+- Como os resultados estão sendo selecionados para apresentação? Esses
+  resultados se relacionam com seu objetivo inicial? Como os resultados se
+  relacionam com o corpo completo de evidência que você está coletando?
+- Seus resultados foram criticamente analisados?
+- Para uma tese, você sabe como será examinada? Como esse conhecimento molda sua
+  escrita?
