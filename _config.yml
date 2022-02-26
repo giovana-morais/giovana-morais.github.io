@@ -1,104 +1,27 @@
-# main text of home
-name: giovana morais
-bio: you're never too cool to learn something new
+title: no style, please! # name of the site
+author: Giovana Morais # name of site's author
+email: giovana.vmorais@gmail.com # email of site's author
+url: https://giovana-morais.github.io # root address of the site
+baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+description: > # description of the site (multiple lines allowed)
+  you're never too cool to learn something new
 
-# twitter summary info
-description: blogzinho do bem
+permalink: /:slug.html
 
-# if it's an external image, update below for true
-# better with square images
-external-image: false
-picture: ../assets/images/giovana.png
+favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
 
-# If you want to include your resume, set to true
-# and specify source (external or local).
-resume: false
-resume-external: false
-resume-url: assets/docs/curriculo.pdf
+theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
 
-url: https://giovana-morais.github.io
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: true # show blog description in home page
 
-permalink: /:year/:title/
-# permalink: /:title/
-# assets: assets/images/
-
-# To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
-
-# To enable piwik tracking, supply your url & site ID below
-# analytics-piwik-url: 'piwik.my-host.com'
-# analytics-piwik-id: 1
-
-# if you don't want comments in your posts, leave categories empty
-# disqus:
-#   shortname: mydisqus # enter this from your disqus account
-#   categories:  [blog, project] # only show disqus for posts that have these categories
-
-# if you don't have any of social below, comment the line
-# facebook: myfacebook
-twitter: ohshitgi
-linkedin: giovana-morais
-spotify: volta-seca
-github: giovana-morais
-email: giovana.vmorais@gmail.com
-
-authors:
-    giovanamorais:
-            name: Giovana Morais
-            bio: you're never too cool to something new
-            external-image: false
-            picture: ../assets/images/giovana.png
-            twitter: ohshitgi
-
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
-# normal = 560px / large = 810px
-width: normal
-
-# if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
-
-# if you don't need projects, comment the *projects* configs below
-# projects: true
-
-# if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
-leituras: true
-
-# do you want to show the "read time" of the posts?
-read-time: true
-
-# do you want to show the "tags" inside the posts?
-show-tags: true
-
-# related posts inside a post?
-related: true
-
-# Display links for next and previous posts for the specified categories
-post-advance-links: [blog, dev]
-
-# show author block at the end of a post ?
-show-author: true
-
-# do you want some animations?
-animation: true
+sass:
+  style: :compressed
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
   - jekyll-feed
-  - jemoji
-  - jekyll-admin
-
-jekyll-mentions:
-    base_url: https://github.com
-
-compress_html:
-    ignore:
-        envs:
-        - development
-        - stage
-
-exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
+  - jekyll-seo-tag

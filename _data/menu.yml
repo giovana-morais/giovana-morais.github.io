@@ -1,0 +1,39 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+
+  - title: all posts
+    post_list:
+      limit: 10
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  # - title: posts by category
+  #   post_list:
+  #     category: example2
+  #     show_more: true
+  #     show_more_text: See more posts...
+  #     show_more_url: example2-archive.html
+
+  - title: livrinhos
+    post_list:
+      category: livros
+      show_more: true
+      show_more_text: mais livros
+      show_more_url: arquivo-livros.html
+
+  - title: rss
+    url: feed.xml
+
+  - title: info
+    url: about.html
+
+  # - title: another list
+  #   entries:
+  #     - title: with subitems
+  #       entries:
+  #         - title: with subsubitems
+  #         - title: example page
+  #           url: about
