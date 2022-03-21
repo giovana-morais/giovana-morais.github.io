@@ -7,7 +7,7 @@ entries:
     post_list:
       limit: 10
       show_more: true
-      show_more_text: See archive...
+      show_more_text: Mais postagens...
       show_more_url: archive.html
 
   # - title: posts by category
@@ -17,12 +17,12 @@ entries:
   #     show_more_text: See more posts...
   #     show_more_url: example2-archive.html
 
-  - title: livrinhos
-    post_list:
-      category: livros
-      show_more: true
-      show_more_text: mais livros
-      show_more_url: arquivo-livros.html
+  # - title: livrinhos
+  #   post_list:
+  #     category: livros
+  #     show_more: true
+  #     show_more_text: mais livros
+  #     show_more_url: arquivo-livros.html
 
   - title: rss
     url: feed.xml
