@@ -3,11 +3,11 @@
 
 entries:
 
-  - title: all posts
+  - title: postagens
     post_list:
       limit: 10
       show_more: true
-      show_more_text: Mais postagens...
+      show_more_text: + postagens
       show_more_url: archive.html
 
   # - title: posts by category

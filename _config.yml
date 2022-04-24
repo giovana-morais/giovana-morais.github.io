@@ -1,11 +1,12 @@
-title: no style, please! # name of the site
+title: eita, giovana # name of the site
 author: Giovana Morais # name of site's author
 email: giovana.vmorais@gmail.com # email of site's author
 url: https://giovana-morais.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  you're never too cool to learn something new
+    ᕕ( ᐛ )ᕗ
 
+# you're never too cool to learn something new
 permalink: /:slug.html
 
 favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
@@ -15,7 +16,7 @@ remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it
 
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
-  back_home_text: ".." # customize text for homepage link in post layout
+  back_home_text: "voltar" # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description in home page
 
