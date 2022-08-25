@@ -15,6 +15,7 @@ author: giovanamorais
 4. nutshell[^4]: um projeto da Nicky Case que é 100% relacionado à ideia do
    Telescopic Text e com a ideia de criar explicações expansíveis dentro de um
    dado texto. É muito bom.
+5. FizzBuzzEnterpriseEdition[^5]: um projeto idiota pra dar risadinhas.
 
 ---
 
@@ -22,3 +23,4 @@ author: giovanamorais
 [^2]: https://explorabl.es/programming/
 [^3]: https://ncase.me/
 [^4]: https://github.com/ncase/nutshell
+[^5]: https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition
