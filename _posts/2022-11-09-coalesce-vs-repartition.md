@@ -27,12 +27,12 @@ Se você quiser apenas reduzir o número de partições de um dataset que não f
 filtrado ou que não teve seu número de linhas mudado de alguma forma, o
 `coalesce` é a melhor opção. Como não há a redistribuição dos dados, é uma
 operação mais rápida. Contudo, a própria documentação do Spark não indica[^1]
-que o `coalesce`seja usado quando você deseja reduzir o número de partições pra
+que o `coalesce` seja usado quando você deseja reduzir o número de partições pra
 apenas 1. Isso porque a operação vai concentrar tudo em um único nó e deixar a
 execução muito lenta.
 
 Se você aplicou uma série de filtros no seu dataset, altrando o número total de
-linhas, e deixando suas partições com tamanhos desiguais[^3]
+linhas, e deixando suas partições com tamanhos desiguais[^2]
 `repartition` é a opção melhor. 
 
 # Referências
