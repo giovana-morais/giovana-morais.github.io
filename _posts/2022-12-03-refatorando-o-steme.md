@@ -10,6 +10,8 @@ author: giovanamorais
 * [Problema](#problema)
 * [Solução](#solução)
 	* [03/12/22](#031222)
+	* [24/01/23](#240123)
+	* [25/01/23](#250123)
 
 # Introdução
 
@@ -84,13 +86,78 @@ STEME serão feitas e documentadas em partes. Esse é o
   └── venv
 
   ```
-*  
+  
 * O linter que eu usei foi o [`flake8`](https://flake8.pycqa.org/en/latest/) junto do
   [`autopep8`](https://github.com/hhatto/autopep8) pra esse
   início em que eu tive que passar o linter em tudo. O `flake8` não consegue
   forçar as mudanças no código, que é o que o `autopep8` faz.
   * Embora eu tenha adicionado o `flake8`, ainda não fiz todas as mudanças no
 	código que eu queria pra ele não reclamar de nada. Vou fazer isso com calma. 
+
+## 24/01/23
+
+* Finalmente criei um módulo instalável pro código. Não aguentava mais ter que
+  ficar usando `sys.path.append(...)` toda hora dentro dos notebooks pra
+  conseguir usar os scripts. Agora consigo organizar melhor os exemplos nos
+  notebooks que pretendo subir. Pra ficar mais bonito agora, só tirando os
+  arquivos de teste e os scripts específicos pra uma outra pasta, deixando na
+  `src` apenas o que é código do modelo em si + as bibliotecas. Inclusive, por
+  questões de instalação, renomeei a pasta de `src` pra `steme`, de modo que
+  agora o import fica como
+
+  ```python
+  from steme import audio
+  ```
+
+  em vez de 
+
+  ```
+  from src import audio
+  ```
+
+  talvez valha a pena mencionar que eu poderia ter mantido a pasta com o nome
+  `src` e ajustado o nome do módulo pra ser `steme` ao alterar uma das
+  configurações do `setup.py`. seria algo como:
+
+  ```
+	"""
+	this file has setup to distribute this as a package
+	"""
+
+	from setuptools import setup
+
+	setup(
+			name="steme",
+			version=0.1, 
+			description="",
+			url="",
+			author="Giovana Morais",
+			email="giovana.vmorais@gmail.com",
+			license="",
+			# atenção aqui para a mágica:
+			package_dir={"steme": "src"},
+			packages=["steme"],
+			zip_safe=False
+	)
+
+  ```
+  mas aí eu usei de referência alguns outros módulos que eu uso
+  no dia a dia[^4] e acabei seguindo o exemplo de manter a pasta com o mesmo nome do
+  projeto.
+
+## 25/01/23
+
+* Feriadinho em São Paulo, então é dia de trabalhar no código. Estava tendo uns
+  problemas com a criação do módulo, mas hoje consegui resolver os problemas
+  remanescentes. 
+
+* Ajeitei a organização das pastas e movi os scripts pra uma pasta separada de
+  scripts, então dentro da pasta do `steme` ficou só as funções principais do
+  módulo.
+
+* Comecei uns notebooks com explicações sobre o modelo e mostrando como ele
+  funciona, mas vou deixar pra fazer subir no GitHub quando terminar e estiver
+  satisfeita com eles.
 
 ---
 
@@ -103,3 +170,5 @@ STEME serão feitas e documentadas em partes. Esse é o
 [^3]: No nosso caso, escolhemos o IEEE International Conference on Acoustics,
 	Speech, and Signal Processing ([ICASSP](https://2023.ieeeicassp.org/)). E eu
 	particularmente achei ótimo, porque vai ser na Grécia!!! 
+
+[^4]: Os módulos em questão são o [madmom](https://github.com/CPJKU/madmom), [librosa](https://github.com/librosa/librosa) e [mirdata](https://github.com/mir-dataset-loaders/mirdata)
