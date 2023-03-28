@@ -15,8 +15,8 @@ import zipfile
 import tempfile
 
 import os
-import boto3 
-            
+import boto3
+
 def zipdir(path, ziph):
     # Zipfile hook to zip up model folders
     length = len(path) # Doing this to get rid of parent folders
@@ -34,17 +34,17 @@ def save_model_s3(model, model_name):
         zipf.close()
 
         s3 = boto3.resource("s3")
-        file_name = os.path.join(f"unified_recommendation/two_tower_poc/{model_name}.zip")
+        file_name = os.path.join(f"bucket/prefix/{model_name}.zip")
         s3.meta.client.upload_file(f"{tempdir}/{model_name}.zip", "gympass-datascience", file_name)
-        
-        
+
+
 def load_model_s3(model_name):
     with tempfile.TemporaryDirectory() as tempdir:
         s3 = boto3.client("s3")
-        s3.download_file("gympass-datascience", f"unified_recommendation/two_tower_poc/{model_name}.zip", f"{tempdir}/{model_name}.zip")
+        s3.download_file("gympass-datascience", f"bucket/prefix/{model_name}.zip", f"{tempdir}/{model_name}.zip")
         with zipfile.ZipFile(f"{tempdir}/{model_name}.zip") as zip_ref:
             zip_ref.extractall(f"{tempdir}/{model_name}")
             # Load the keras model from the temporary directory
             return tf.saved_model.load(f"{tempdir}/{model_name}")
-        
+
 ```
