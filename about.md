@@ -5,9 +5,10 @@ title: quem é você?
 
 olá! meu nome é Giovana Morais e sou cientista da computação
 pela [Universidade Federal de São Carlos](www.dcomp.sor.ufscar.br)
-(UFSCar Sorocaba). atualmente, trabalho como
-cientista de dados e sou mestranda em computação musical pela Universidade de
-São Paulo (USP), no grupo do [COMPMUS](https://compmus.ime.usp.br/).
+(UFSCar Sorocaba) e mestra em ciência da computeção pela
+Universidade de São Paulo (USP), no grupo do [COMPMUS](https://compmus.ime.usp.br/).
+atualmente, sou doutoranda na Universidade de Nova York (NYU) no
+[MARL](https://steinhardt.nyu.edu/marl).
 
 nas horas vagas eu sou baterista em uma banda de rock ruim, faço cafuné em
 qualquer bichinho que cruzar meu caminho, gosto de ler livros de ficção, ouvir e
