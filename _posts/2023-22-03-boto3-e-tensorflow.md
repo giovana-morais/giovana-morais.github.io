@@ -35,13 +35,13 @@ def save_model_s3(model, model_name):
 
         s3 = boto3.resource("s3")
         file_name = os.path.join(f"bucket/prefix/{model_name}.zip")
-        s3.meta.client.upload_file(f"{tempdir}/{model_name}.zip", "gympass-datascience", file_name)
+        s3.meta.client.upload_file(f"{tempdir}/{model_name}.zip", "bucket_name", file_name)
 
 
 def load_model_s3(model_name):
     with tempfile.TemporaryDirectory() as tempdir:
         s3 = boto3.client("s3")
-        s3.download_file("gympass-datascience", f"bucket/prefix/{model_name}.zip", f"{tempdir}/{model_name}.zip")
+        s3.download_file("bucket_name", f"bucket/prefix/{model_name}.zip", f"{tempdir}/{model_name}.zip")
         with zipfile.ZipFile(f"{tempdir}/{model_name}.zip") as zip_ref:
             zip_ref.extractall(f"{tempdir}/{model_name}")
             # Load the keras model from the temporary directory
