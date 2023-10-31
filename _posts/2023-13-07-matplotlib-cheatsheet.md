@@ -92,3 +92,17 @@ eis aqui o [link do PR](https://github.com/matplotlib/cheatsheets/pull/132) e
 qualquer sugestão é mais do que bem-vinda.
 
 tchau!
+
+---
+
+# updates
+
+## 30/10/2023
+fechei o PR antes aberto e movi as mudanças pro repositório da
+[PyLadies Brasil](https://github.com/pyladies-brazil/matplotlib-dicas).
+o motivo é que a gente precisa ter liberdade pra mudar o README principal e
+disponibilizar os pdfs de uma maneira independente. fora isso, o PR não era
+aprovado nunca.
+
+agora pra encerrar de vez, vou gerar os pdfs traduzidos e corrigir os links do
+README.
