@@ -30,6 +30,8 @@ entries:
   - title: info
     url: about.html
 
+  - title: receitas
+    url: archive_receitas.html
   # - title: another list
   #   entries:
   #     - title: with subitems
