@@ -4,34 +4,24 @@
 entries:
 
   - title: postagens
+    url: archive.html
     post_list:
-      limit: 10
+      limit: 5
       show_more: true
       show_more_text: + postagens
       show_more_url: archive.html
 
-  # - title: posts by category
-  #   post_list:
-  #     category: example2
-  #     show_more: true
-  #     show_more_text: See more posts...
-  #     show_more_url: example2-archive.html
+  - title: receitas
+    url: receitas.html
 
-  # - title: livrinhos
-  #   post_list:
-  #     category: livros
-  #     show_more: true
-  #     show_more_text: mais livros
-  #     show_more_url: arquivo-livros.html
+  - title: projetos
+    url: projetos.html
 
-  - title: rss
-    url: feed.xml
-
-  - title: info
+  - title: sobre mim
     url: about.html
 
-  - title: receitas
-    url: archive_receitas.html
+  # - title: rss
+  #   url: feed.xml
   # - title: another list
   #   entries:
   #     - title: with subitems
