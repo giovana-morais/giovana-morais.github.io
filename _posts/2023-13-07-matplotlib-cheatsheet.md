@@ -2,10 +2,9 @@
 title: "folhas de dica do matplotlib e reflexões"
 layout: post
 date: 2023-07-13
+category: projetos
 tag:
-- open source
-- reflexões
-category: blog
+- opensource
 author: giovanamorais
 ---
 
