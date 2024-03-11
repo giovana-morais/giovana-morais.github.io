@@ -50,11 +50,7 @@ dito isso, a dica extra é: nunca, em hipótese alguma, ande com seu passaporte
 original a não ser que seja muito necessário. anda com uma cópia autenticada,
 sei lá. evite a dor de cabeça de perder um passaporte.
 
-# 3. (talvez específico) TRAGA PANO DE CHÃO
-não tem pano de chão nos EUA porque todo mundo usa lenço descartável pra limpar
-as coisas. uma galera super esquisita. traga uns paninhos de chão de casa.
-
-# 4. aprenda a fazer uma receita que você gosta muito do seu país
+# 3. aprenda a fazer uma receita que você gosta muito do seu país
 nada como comer uma comidinha com gosto de casa. nem sempre você vai achar os
 ingredientes, mas às vezes sim! e aí, minha querida, não tem nada melhor do que
 você conseguir reproduzir aquela comida fresquinha e saborosa. matar a saudade
@@ -67,7 +63,7 @@ exemplo uma das minhas próprias receitas favoritas: abobrinha refogada cremosa
 com arroz e tomate. isso pra mim tem um gostinho de casa tão grande e é super
 fácil de fazer quando eu consigo achar abobrinha.
 
-# 5. cuidado pra não trazer coisas inúteis
+# 4. cuidado pra não trazer coisas inúteis
 isso aqui anda um pouco em paralelo com a dica #2. o nosso exemplo concreto de
 coisa inútil foi que trouxemos os nossos teclados e alguns itens de escritório
 que no fim estão guardados até hoje porque não tem espaço no nosso apartamento
