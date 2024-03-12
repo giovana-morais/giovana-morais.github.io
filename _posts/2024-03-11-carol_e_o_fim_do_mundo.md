@@ -1,7 +1,7 @@
 ---
 title: "carol e o fim do mundo"
 layout: post
-date: 2024-10-03
+date: 2024-03-11
 headerImage: false
 category: abobrinha
 author: giovanamorais
