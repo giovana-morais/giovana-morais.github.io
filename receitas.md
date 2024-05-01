@@ -1,4 +1,0 @@
----
-layout: receitas
-title: receitas
----

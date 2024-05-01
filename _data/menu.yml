@@ -11,21 +11,8 @@ entries:
       show_more_text: + postagens
       show_more_url: archive.html
 
-  - title: receitas
-    url: receitas.html
-
   - title: projetos
     url: projetos.html
 
   - title: sobre mim
     url: about.html
-
-  # - title: rss
-  #   url: feed.xml
-  # - title: another list
-  #   entries:
-  #     - title: with subitems
-  #       entries:
-  #         - title: with subsubitems
-  #         - title: example page
-  #           url: about
