@@ -1,0 +1,22 @@
+entries:
+  research:
+    - title: LAMIR website
+      url: https://lamir-workshop.github.io/
+      description: site pro Latin America Music Information Retrieval (LAMIR) Workshop
+    - title: MultiModalInsights
+      url: https://github.com/giovana-morais/multi_modal_insights
+      description: > #
+        modelo para gerar descrições de datasets multi-modais usando LLMs e BERTopic. projeto final da disciplina de Big Data na NYU.
+    - title: STEME - Self-Supervised TEMpo Estimation
+      url: https://github.com/giovana-morais/steme
+      description: modelo auto-supervisionado para a exploração da detecção de andamento baseado na arquitetura para estimação de pitch. apresentado no ICASSP 2023.
+  random:
+    - title: folheto de dicas de matplotlib
+      url: https://github.com/giovana-morais/matplotlib-dicas
+      description: tradução para português brasileiro de um compilado de dicas (iniciantes, intermediárias e avançadas) de matplotlib.
+    - title: COMPMUS Brasil
+      url: https://github.com/giovana-morais/compmus_brasil
+      description: compilado de recursos, grupos e materiais sobre computação musical em português.
+    - title: markov freestyle
+      url: https://github.com/giovana-morais/markov_freestyle/
+      description: geração de letras de música baseada em letras de um ou mais artistas. exercício bobinho, mas que eu gosto muito. <3

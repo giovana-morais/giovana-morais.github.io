@@ -6,4 +6,27 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-{%-include post_list.html category="projetos"-%}
+<h2>acadêmicos</h2>
+<ul>
+  {%-for item in site.data.projetos.entries.research%}
+    <li>
+      <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+		  {%-if item.description -%}
+			<p>{{ item.description }}</p>
+    {%- endif -%}
+    </li>
+  {%-endfor-%}
+</ul>
+
+<br>
+<h2>não-acadêmicos</h2>
+<ul>
+  {%-for item in site.data.projetos.entries.random%}
+    <li>
+      <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+		  {%-if item.description -%}
+			<p>{{ item.description }}</p>
+    {%- endif -%}
+    </li>
+  {%-endfor-%}
+</ul>
