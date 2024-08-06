@@ -20,7 +20,8 @@ orientação da [Prof. Dra. Magdalena Fuentes](https://magdalenafuentes.github.i
 no que diz respeito à pesquisa, meus interesses principais são nas áreas de
 recuperação de informação musical (MIR), aprendizado de máquina e processamento
 de sinais. gosto de aplicações que são focadas em repertórios latinoamericanos.
-não é exagero dizer que gosto mais ainda de aplicações e análises focadas em música brasileira. ninguém escapa do viés!
+não é exagero dizer que gosto mais ainda de aplicações e análises focadas em
+música brasileira. ninguém escapa do viés!
 
 bom, agora que já dei a minha carteirada, posso falar de outras coisas que
 gosto.  no que diz respeito à projetos no geral, eu gosto de contribuir com
@@ -29,19 +30,19 @@ acredito.  também tenho os meus próprios projetos maluquinhos no github.
 
 eu acredito que o acesso ao estudo de qualidade deva ser acessibilizado porque
 esse é o melhor caminho pra mudanças na nossa sociedade. sempre que posso,
-contribuo em projetos, ajudo em comunidades por meio de aulas e mentorias e
-tento escrever (em português) sobre alguns tópicos que considero interessantes e
-relevantes. acredito também que a gente deve ser gentil acima de tudo.
-finalmente, gosto sempre de reiterar que acredito que ninguém faz nada sozinho.
-temos que trabalhar juntos e sempre respeitando o nosso meio para que *qualquer*
-coisa saia do papel.
+contribuo em projetos abertos, participo de comunidades por meio de aulas e
+mentorias e tento escrever (em português) sobre alguns tópicos que considero
+interessantes e relevantes.
 
-pra espairecer, eu toco bateria, passo um tempo com minha família,
-estico minha gata toda vez que encontro com ela, leio, desenho, tomo sol,
-escrevo mal, como frutinhas, ouço e
-consumo muito conteúdo de música e de análise musical e, por fim, jogo
-videogame! eu gosto muito de ser ruim em coisas diferentes. talvez você devesse
-tentar também, é libertador.
+acredito também que a gente deve ser gentil acima de tudo porque ninguém faz
+nada sozinho.  temos que trabalhar juntos e sempre respeitando o nosso meio para
+que *qualquer* coisa saia do papel.
+
+pra espairecer, eu toco bateria, passo um tempo com minha família, estico minha
+gata toda vez que encontro com ela, leio, desenho, tomo sol, escrevo mal, como
+frutinhas, ouço e consumo muito conteúdo de música e de análise musical e, por
+fim, jogo videogame! eu gosto muito de ser ruim em coisas diferentes. talvez
+você devesse tentar também, é libertador.
 
 você me encontra:
 * por obrigação no [linkedin](https://www.linkedin.com/in/giovana-morais/)
@@ -49,7 +50,7 @@ você me encontra:
 * falando de livros que estou lendo no [skoob](https://www.skoob.com.br/usuario/7352542).
 * codando projetos aleatórios no [github](https://github.com/giovana-morais)
 * zanzando por aí em [nova york](https://youtu.be/vk6014HuxcE?t=54)
-* logo menos zanzando por [são paulo]()
+* eventualmente zanzando por [são paulo](https://youtu.be/vwjVbpKlTUc?t=60)
 
 <!-- --- -->
 
