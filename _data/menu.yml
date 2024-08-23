@@ -16,3 +16,6 @@ entries:
 
   - title: sobre mim
     url: about.html
+
+  - title: agora
+    url: now.html

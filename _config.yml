@@ -4,7 +4,7 @@ email: giovana.vmorais@gmail.com # email of site's author
 url: https://giovana-morais.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-    ᕕ( ᐛ )ᕗ
+  geradora pseudo-aleatória de ideias questionáveis
 
 # you're never too cool to learn something new
 permalink: /:slug.html
