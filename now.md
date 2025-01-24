@@ -3,17 +3,20 @@ layout: page
 title: agora
 ---
 
-comprei uma bicicleta recentemente e estou bem feliz pedalando por aí. o caminho
-mais longo que fiz até agora foi de, aproximadamente, 25 km!
-tenho lido bastante gibi (ou _graphic novels_, se quiser) e o meu preferido
-foi [Woman World, ou Mundo Mulher](https://www.skoob.com.br/mundo-mulher-11673017ed11689088.html).
-ainda na leitura, estou vivendo minha obsessão por ficção científica e tentando ler
-alguns livros da Ursula K. Le Guin.
+acabei de ver Arcane e estou *completamente* obcecada. dentre meus últimos
+livros lidos estão "Matéria Escura" e "Risíveis Amores". atualmente estou lendo
+"A Mão Esquerda da Escuridão" e gostando muito. o semestre acabou de começar,
+então não sei quanto tempo conseguirei manter a leitura por prazer e a leitura
+de artigos simultaneamente.
 
-estou desenvolvendo um [pacote python pra aumentar dados
-de sistemas de separação de fontes](https://github.com/giovana-morais/stem_mixer)
-e ajudando na organização do [LAMIR](https://lamir-workshop.github.io/).
+fora isso, tenho passado meu tempo congelando, pesquisando sobre maneiras
+espertas de criar versões limpas de datasets massivos existentes e tentando
+achar um projeto legal com datasets audiovisuais relacionados a música. aceito
+ideias.
+
+
+que esse ano seja um ótimo ano pra gente.
 
 ---
 
-data de atualização: 23/08/2024
+data de atualização: 23/01/2025
