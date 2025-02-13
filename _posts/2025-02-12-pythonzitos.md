@@ -7,6 +7,11 @@ category: blog
 author: giovanamorais
 ---
 
+lista desordenada de coisas que sempre preciso fazer mas nunca lembro como fazer
+
+---
+
+
 # adicionando uma dimensão a um array
 
 ```python
