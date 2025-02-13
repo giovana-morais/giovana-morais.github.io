@@ -25,3 +25,14 @@ x = np.expand_dims(x, 0)
 print(x.shape)
 # (1,10)
 ```
+
+
+# limpando cache do pip
+
+```bash
+# remove um pacote específico
+pip cache remove <pacote>
+
+# limpa tudo
+pip cache purge
+```
