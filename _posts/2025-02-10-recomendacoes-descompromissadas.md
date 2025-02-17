@@ -18,24 +18,36 @@ lembrar o porquê.
   porque a música é gerada enquanto você joga e esse conceito é sensacional.
   jogo bem casualmente e algumas fases são mais complicadas, mas vale a pena
   cada segundo.
-* [thank goodness you're here!](https://www.youtube.com/watch?v=LFsDFNB-Ug4). tem um senso de humor bastante particular e algumas vezes até ligeiramente questionável, mas me diverti muito. é um jogo bem rapidinho, me deixou querendo um pouco mais.
 * [carto (em andamento)](https://www.youtube.com/watch?v=OR8CjIYwmxM). honestamente, o jogo mais fofo da face da terra. não
   há nada que me deixe mais em paz.
+* [thank goodness you're here!](https://www.youtube.com/watch?v=LFsDFNB-Ug4). tem um senso de humor bastante particular e algumas vezes até ligeiramente questionável, mas me diverti muito. é um jogo bem rapidinho, me deixou querendo um pouco mais.
 
 ---
 
 ## música
+* [abraskadabra - swings and
+  roundabouts](https://www.youtube.com/watch?v=yFI5j5eM4-k). a gente também tem o ska que a
+  gente merece. música boa pra andar de kombi por aí com os amigos.
+* [maré tardia - já sei bem](https://www.youtube.com/watch?v=X9SSe8tQ318). a
+  gente tem o surf rock que a gente merece e ainda bem que a gente tem maré
+  tardia.
 * [mundo vídeo - noite de lua torta](https://balaclavarecords.bandcamp.com/album/noite-de-lua-torta). ainda não decidi o quanto eu gostei e o quanto eu desgotei, embora já tenha ouvido pelo menos umas três vezes. o álbum é bem experimental e me intrigou tanto que eu não consigo não recomendar.
 * [o cheiro do queijo - sound circo](https://www.youtube.com/watch?v=qOS1iEEN8o0). satírico e sarcástico. som do bom.
 * [yago oproprio - oproprio](https://www.youtube.com/watch?v=qOS1iEEN8o0). esse
   aqui é sem palavras. o cara deitou demais.
-* [maré tardia - já sei bem](https://www.youtube.com/watch?v=X9SSe8tQ318). a
-  gente tem o surf rock que a gente merece e ainda bem que a gente tem maré
-  tardia.
-* [abraskadabra - swings and
-  roundabouts](https://www.youtube.com/watch?v=yFI5j5eM4-k). a gente também tem o ska que a
-  gente merece. música boa pra andar de kombi por aí com os amigos.
 
+
+---
+
+## vídeos (youtube)
+
+### aleatórios
+* [how trying became cool again](https://www.youtube.com/watch?v=o2jzKo1RqWU). a
+  gente não tem que ter medo de tentar porque alguém vai tirar sarro. e não tem
+  jeito, tem que dar errado e tentar pra dar certo e ficar bom.
+
+
+### técnicos
 
 ---
 
