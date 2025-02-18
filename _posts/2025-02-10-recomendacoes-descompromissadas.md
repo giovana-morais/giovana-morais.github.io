@@ -28,6 +28,10 @@ lembrar o porquê.
 * [abraskadabra - swings and
   roundabouts](https://www.youtube.com/watch?v=yFI5j5eM4-k). a gente também tem o ska que a
   gente merece. música boa pra andar de kombi por aí com os amigos.
+* [la ciencia simple](https://www.youtube.com/watch?v=aINuLF0i75E). em vez de um
+  álbum, essa é uma apresentação ao vivo no KEXP que eu curti demais. introdução
+  foda à banda chilena. me lembrou meus queridinhos do "e a terra nunca pareceu
+  tão distante".
 * [maré tardia - já sei bem](https://www.youtube.com/watch?v=X9SSe8tQ318). a
   gente tem o surf rock que a gente merece e ainda bem que a gente tem maré
   tardia.
