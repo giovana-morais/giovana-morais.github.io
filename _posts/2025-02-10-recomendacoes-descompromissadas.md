@@ -60,3 +60,8 @@ lembrar o porquê.
   bem construídos, guerra, sapatonas dando bicuda a torto e a direito, jesus
   metálico e muito mais.
 * krapopolis (netflix). eu amo ver a humanidade tirando sarro da humanidade.
+
+---
+
+### posts
+* [(2016) The News on Auto-tuning](https://archives.argmin.net/2016/06/20/hypertuning/)
