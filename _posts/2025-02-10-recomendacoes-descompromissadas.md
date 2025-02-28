@@ -33,6 +33,7 @@ lembrar o porquê.
   álbum, essa é uma apresentação ao vivo no KEXP que eu curti demais. introdução
   foda à banda chilena. me lembrou meus queridinhos do "e a terra nunca pareceu
   tão distante".
+* [laura aufranc - sem juízo](https://www.youtube.com/watch?v=lr6Xd8-q9vE). clipe fofíssimo.
 * [maré tardia - já sei bem](https://www.youtube.com/watch?v=X9SSe8tQ318). a
   gente tem o surf rock que a gente merece e ainda bem que a gente tem maré
   tardia.
@@ -43,7 +44,6 @@ lembrar o porquê.
 * [o cheiro do queijo - sound circo](https://www.youtube.com/watch?v=qOS1iEEN8o0). satírico e sarcástico. som do bom.
 * [yago oproprio - oproprio](https://www.youtube.com/watch?v=qOS1iEEN8o0). esse
   aqui é sem palavras. o cara deitou demais.
-
 
 * [beauty of armenian jazz](https://www.youtube.com/watch?v=11i4UNbKHkQ)
 ---
