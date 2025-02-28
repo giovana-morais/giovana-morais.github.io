@@ -25,6 +25,7 @@ lembrar o porquê.
 ---
 
 ## música
+
 * [abraskadabra - swings and
   roundabouts](https://www.youtube.com/watch?v=yFI5j5eM4-k). a gente também tem o ska que a
   gente merece. música boa pra andar de kombi por aí com os amigos.
@@ -36,11 +37,15 @@ lembrar o porquê.
   gente tem o surf rock que a gente merece e ainda bem que a gente tem maré
   tardia.
 * [mundo vídeo - noite de lua torta](https://balaclavarecords.bandcamp.com/album/noite-de-lua-torta). ainda não decidi o quanto eu gostei e o quanto eu desgotei, embora já tenha ouvido pelo menos umas três vezes. o álbum é bem experimental e me intrigou tanto que eu não consigo não recomendar.
+* [nicolás y los fumadores](https://www.youtube.com/watch?v=q4PlauQlWb8).
+  fumando e tocando com os amigos dentro de uma piscina vazia é literalmente o
+  rolê dos meus sonhos. 10/10.
 * [o cheiro do queijo - sound circo](https://www.youtube.com/watch?v=qOS1iEEN8o0). satírico e sarcástico. som do bom.
 * [yago oproprio - oproprio](https://www.youtube.com/watch?v=qOS1iEEN8o0). esse
   aqui é sem palavras. o cara deitou demais.
 
 
+* [beauty of armenian jazz](https://www.youtube.com/watch?v=11i4UNbKHkQ)
 ---
 
 ## vídeos (youtube)
@@ -49,9 +54,9 @@ lembrar o porquê.
 * [how trying became cool again](https://www.youtube.com/watch?v=o2jzKo1RqWU). a
   gente não tem que ter medo de tentar porque alguém vai tirar sarro. e não tem
   jeito, tem que dar errado e tentar pra dar certo e ficar bom.
+* [kid vampire full movie](https://www.youtube.com/watch?v=2JqDneQLX0s). um
+  compilado dos vídeos antes lançados como shorts/reels. uma gracinha.
 
-
-### técnicos
 
 ---
 
@@ -60,3 +65,8 @@ lembrar o porquê.
   bem construídos, guerra, sapatonas dando bicuda a torto e a direito, jesus
   metálico e muito mais.
 * krapopolis (netflix). eu amo ver a humanidade tirando sarro da humanidade.
+
+---
+
+## posts
+* [How To Keep In Contact When You Can't Use Your Phone](https://archive.is/0lI4K). exemplos vindo de raveiros são sempre bem aceitos.
