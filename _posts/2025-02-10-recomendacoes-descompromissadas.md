@@ -68,5 +68,7 @@ lembrar o porquê.
 
 ---
 
+<<<<<<< HEAD
 ## posts
-* [How To Keep In Contact When You Can't Use Your Phone](https://archive.is/0lI4K). exemplos vindo de raveiros são sempre bem aceitos.
+* [(2025) How To Keep In Contact When You Can't Use Your Phone](https://archive.is/0lI4K). exemplos vindo de raveiros são sempre bem aceitos.
+* [(2016) The News on Auto-tuning](https://archives.argmin.net/2016/06/20/hypertuning/)

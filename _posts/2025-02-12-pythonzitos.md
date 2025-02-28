@@ -12,7 +12,7 @@ lista desordenada de coisas que sempre preciso fazer mas nunca lembro como fazer
 ---
 
 
-# adicionando uma dimensão a um array
+## adicionando uma dimensão a um array
 
 ```python
 import numpy as np
@@ -26,8 +26,16 @@ print(x.shape)
 # (1,10)
 ```
 
+## escrevendo uma lista em um arquivo (separando com \n)
 
-# limpando cache do pip
+```python
+myList = [1,2,3,4]
+
+with open('path/to/output', 'w') as outfile:
+  outfile.write('\n'.join(str(i) for i in myList))
+```
+
+## limpando cache do pip
 
 ```bash
 # remove um pacote específico

@@ -1,8 +1,11 @@
 entries:
   research:
+    - title: Skip That Beat: Augmenting Meter Tracking Models for Underrepresented Time Signatures
+      url: https://giovana-morais.github.io/skip_that_beat_demo/
+      description: demo do artigo aceito para o LAMIR 2024 e ISMIR LBD 2024.
     - title: LAMIR website
       url: https://lamir-workshop.github.io/
-      description: site pro Latin America Music Information Retrieval (LAMIR) Workshop
+      description: site pro Latin America Music Information Retrieval (LAMIR) Workshop.
     - title: MultiModalInsights
       url: https://github.com/giovana-morais/multi_modal_insights
       description: > #
