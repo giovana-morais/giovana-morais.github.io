@@ -1,5 +1,5 @@
 ---
-title: "recomendações descompromissadas 2024/2025"
+title: "recomendações descompromissadas 2025/2025"
 layout: post
 date: 2025-02-10
 headerImage: false
@@ -46,16 +46,17 @@ lembrar o porquê.
   aqui é sem palavras. o cara deitou demais.
 
 * [beauty of armenian jazz](https://www.youtube.com/watch?v=11i4UNbKHkQ)
+
 ---
 
 ## vídeos (youtube)
 
-### aleatórios
+* [kid vampire full movie](https://www.youtube.com/watch?v=2JqDneQLX0s). um
+  compilado dos vídeos antes lançados como shorts/reels. uma gracinha.
 * [how trying became cool again](https://www.youtube.com/watch?v=o2jzKo1RqWU). a
   gente não tem que ter medo de tentar porque alguém vai tirar sarro. e não tem
   jeito, tem que dar errado e tentar pra dar certo e ficar bom.
-* [kid vampire full movie](https://www.youtube.com/watch?v=2JqDneQLX0s). um
-  compilado dos vídeos antes lançados como shorts/reels. uma gracinha.
+* [the biggest flaw of Generative AI](https://www.youtube.com/watch?v=rAEqP9VEhe8). explicação sobre injeção indireta de prompt pra LLMs.
 
 
 ---
@@ -68,7 +69,7 @@ lembrar o porquê.
 
 ---
 
-<<<<<<< HEAD
 ## posts
 * [(2025) How To Keep In Contact When You Can't Use Your Phone](https://archive.is/0lI4K). exemplos vindo de raveiros são sempre bem aceitos.
+* [(2019) A Visual Exploration of Gaussian Processes](https://distill.pub/2019/visual-exploration-gaussian-processes/)
 * [(2016) The News on Auto-tuning](https://archives.argmin.net/2016/06/20/hypertuning/)
