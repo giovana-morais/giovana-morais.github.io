@@ -57,6 +57,11 @@ lembrar o porquê.
   gente não tem que ter medo de tentar porque alguém vai tirar sarro. e não tem
   jeito, tem que dar errado e tentar pra dar certo e ficar bom.
 * [the biggest flaw of Generative AI](https://www.youtube.com/watch?v=rAEqP9VEhe8). explicação sobre injeção indireta de prompt pra LLMs.
+* [CONSPIRACY](https://www.youtube.com/watch?v=teqkK0RLNkI). contrapoints faz
+  TUDO mais uma vez nesse vídeo de quase 3 horas sobre conspiração.
+* [A ARMADILHA DO CONTEÚDO](https://www.youtube.com/watch?v=tXseTtlC5qI).
+  orathiago falando sobre informação ultraprocessada e o que se perde nisso. eu
+  amo 1 gay.
 
 
 ---
@@ -71,5 +76,9 @@ lembrar o porquê.
 
 ## posts
 * [(2025) How To Keep In Contact When You Can't Use Your Phone](https://archive.is/0lI4K). exemplos vindo de raveiros são sempre bem aceitos.
-* [(2019) A Visual Exploration of Gaussian Processes](https://distill.pub/2019/visual-exploration-gaussian-processes/)
+* [(2019) A Visual Exploration of Gaussian Processes](https://distill.pub/2019/visual-exploration-gaussian-processes/). eu amo tudo que é do distill.
 * [(2016) The News on Auto-tuning](https://archives.argmin.net/2016/06/20/hypertuning/)
+* [(2014) Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/). post
+  fantástico sobre visualização de algoritmos e como utilizar
+  diferentes técnicas pra analisar e entender melhor um mesmo algoritmo
+  de pontos de vista distintos. muito bom.
