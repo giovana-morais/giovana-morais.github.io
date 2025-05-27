@@ -29,29 +29,47 @@ skoob e seguirei anotando minhas leituras por lá.
 
 ## música
 
+### singles
 * [abraskadabra - swings and
   roundabouts](https://www.youtube.com/watch?v=yFI5j5eM4-k). a gente também tem o ska que a
   gente merece. música boa pra andar de kombi por aí com os amigos.
-* [la ciencia simple](https://www.youtube.com/watch?v=aINuLF0i75E). em vez de um
-  álbum, essa é uma apresentação ao vivo no KEXP que eu curti demais. introdução
-  foda à banda chilena. me lembrou meus queridinhos do "e a terra nunca pareceu
-  tão distante".
 * [laura aufranc - sem juízo](https://www.youtube.com/watch?v=lr6Xd8-q9vE). clipe fofíssimo.
+* [linkin park - let you fade](https://www.youtube.com/watch?v=jv-laQtaLjE).
+  aqui eles deitaram demais.
 * [maré tardia - já sei bem](https://www.youtube.com/watch?v=X9SSe8tQ318). a
   gente tem o surf rock que a gente merece e ainda bem que a gente tem maré
   tardia.
+* [moses sumney & hayley williams - i like it i like it](https://www.youtube.com/watch?v=d5OB461GCD8)
+* [pense - não vou recuar pra ninguém](https://www.youtube.com/watch?v=Anvfo054lH8)
+* [tim bernardes - praga](https://www.youtube.com/watch?v=AgZCglt4JEI). saudades
+  de quando em 1975 o Tim fez essa apresentação belíssima.
+
+
+### álbuns
+
 * [mundo vídeo - noite de lua torta](https://balaclavarecords.bandcamp.com/album/noite-de-lua-torta). ainda não decidi o quanto eu gostei e o quanto eu desgotei, embora já tenha ouvido pelo menos umas três vezes. o álbum é bem experimental e me intrigou tanto que eu não consigo não recomendar.
-* [nicolás y los fumadores](https://www.youtube.com/watch?v=q4PlauQlWb8).
-  fumando e tocando com os amigos dentro de uma piscina vazia é literalmente o
-  rolê dos meus sonhos. 10/10.
 * [o cheiro do queijo - sound circo](https://www.youtube.com/watch?v=qOS1iEEN8o0). satírico e sarcástico. som do bom.
 * [spiritualized - ladies and gentlement we are floating in space](https://www.youtube.com/watch?v=_eCGu2Te3ZA). descobri
   recentemente e sinceramente eu amei. doido doido.
 * [yago oproprio - oproprio](https://www.youtube.com/watch?v=qOS1iEEN8o0). esse
   aqui é sem palavras. o cara deitou demais.
 
+
+### apresentações/complicações
+
+* [bad bunny - NUEVAYoL](https://www.youtube.com/watch?v=T3fMgn9eeBA). fiquei
+  obcecada com essa apresentação.
 * [beauty of armenian jazz](https://www.youtube.com/watch?v=11i4UNbKHkQ)
 * [CLASS WAR DECLARATION MIX FROM THE MUSEUM STORAGE ROOM](https://www.youtube.com/watch?v=L_HCXeOJC1U)
+* [la ciencia simple](https://www.youtube.com/watch?v=aINuLF0i75E). em vez de um
+  álbum, essa é uma apresentação ao vivo no KEXP que eu curti demais. introdução
+  foda à banda chilena. me lembrou meus queridinhos do "e a terra nunca pareceu
+  tão distante".
+* [nicolás y los fumadores](https://www.youtube.com/watch?v=q4PlauQlWb8).
+  fumando e tocando com os amigos dentro de uma piscina vazia é literalmente o
+  rolê dos meus sonhos. 10/10.
+* [yamandu costa e dominguinhos](https://www.youtube.com/watch?v=xZfKXFnb6IQ&t=4s). uma obra de
+  arte.
 
 ---
 
@@ -68,6 +86,10 @@ skoob e seguirei anotando minhas leituras por lá.
 * [A ARMADILHA DO CONTEÚDO](https://www.youtube.com/watch?v=tXseTtlC5qI).
   orathiago falando sobre informação ultraprocessada e o que se perde nisso. eu
   amo 1 gay.
+* [The Ethics of Fake Guitar](https://www.youtube.com/watch?v=R1QEV9euGAg). por
+  que é errado fazer vídeo fingindo que toca guitarra? e por que é certo? qual a
+  relação disso com regras implícitas de gêneros musicais? muito bom!
+* [LESBIANS](https://www.youtube.com/watch?v=3vevGe-SwOo). solos de guitarra.
 
 
 ---
