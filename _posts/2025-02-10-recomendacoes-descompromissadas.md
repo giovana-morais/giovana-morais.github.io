@@ -104,6 +104,7 @@ skoob e seguirei anotando minhas leituras por lá.
 
 ## posts
 * [(2025) How To Keep In Contact When You Can't Use Your Phone](https://archive.is/0lI4K). exemplos vindo de raveiros são sempre bem aceitos.
+* [(2022) Jailbreaking LLM-Controlled Robots](https://blog.ml.cmu.edu/2024/10/29/jailbreaking-llm-controlled-robots/). um estudo a respeito do quão fácil é burlar regras de segurança de sistemas (nesse caso, robôs) que trabalham com LLMs.
 * [(2019) A Visual Exploration of Gaussian Processes](https://distill.pub/2019/visual-exploration-gaussian-processes/). eu amo tudo que é do distill.
 * [(2016) The News on Auto-tuning](https://archives.argmin.net/2016/06/20/hypertuning/)
 * [(2014) Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/). post
