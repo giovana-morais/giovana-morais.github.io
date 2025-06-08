@@ -90,6 +90,7 @@ skoob e seguirei anotando minhas leituras por lá.
   que é errado fazer vídeo fingindo que toca guitarra? e por que é certo? qual a
   relação disso com regras implícitas de gêneros musicais? muito bom!
 * [LESBIANS](https://www.youtube.com/watch?v=3vevGe-SwOo). solos de guitarra.
+* [How Galileo Broke the Scientific Method](https://www.youtube.com/watch?v=v7a65AvELdU). Filosofia da ciência, discussões a respeito de princípios básicos do método científico e como a fé pode ajudar a fazer ciência.
 
 
 ---
