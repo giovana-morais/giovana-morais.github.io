@@ -3,20 +3,17 @@ layout: page
 title: agora
 ---
 
-acabei de ver Arcane e estou *completamente* obcecada. dentre meus últimos
-livros lidos estão "Matéria Escura" e "Risíveis Amores". atualmente estou lendo
-"A Mão Esquerda da Escuridão" e gostando muito. o semestre acabou de começar,
-então não sei quanto tempo conseguirei manter a leitura por prazer e a leitura
-de artigos simultaneamente.
+sobrevivi ao exame de qualificação! agora eu sou oficialmente uma _PhD
+Candidate_. resumindo, acabei de ter uma promoção que me deixa exatamente com o
+mesmo trabalho. dentre as obsessões literárias, estou lendo livros relacionados
+a ciência, pensamento e criatividade. tem sido interessante. comecei há um tempo
+atrás um caderninho que tento fazer um desenho por dia. por incrível que pareça,
+estou mantendo ele atualizado.
 
-fora isso, tenho passado meu tempo congelando, pesquisando sobre maneiras
-espertas de criar versões limpas de datasets massivos existentes e tentando
-achar um projeto legal com datasets audiovisuais relacionados a música. aceito
-ideias.
-
-
-que esse ano seja um ótimo ano pra gente.
+em termos de pesquisa, estou interessada em explicabilidade e aplicações em
+áudio. estarei em Nashville apresentando um trabalho no Sight and Sound
+Workshop. se alguém estiver por lá, dê um alô!
 
 ---
 
-data de atualização: 23/01/2025
+data de atualização: 09/06/2025

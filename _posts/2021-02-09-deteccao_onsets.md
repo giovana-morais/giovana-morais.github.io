@@ -330,7 +330,7 @@ Os notebooks com os códigos completos estão neste repositório.
 Muito obrigada!
 
 # Referências
-Bello, Julio. A Tutorial on Onset Detection
+Bello, Juan Pablo. A Tutorial on Onset Detection
 
 Lecher, Alexander. An Introduction to Audio Content Analysis
 
