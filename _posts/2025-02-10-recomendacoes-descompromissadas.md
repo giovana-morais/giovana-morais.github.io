@@ -33,6 +33,8 @@ skoob e seguirei anotando minhas leituras por lá.
 * [abraskadabra - swings and
   roundabouts](https://www.youtube.com/watch?v=yFI5j5eM4-k). a gente também tem o ska que a
   gente merece. música boa pra andar de kombi por aí com os amigos.
+* [Highly Suspect - Run For Your Death (More Pills)](https://www.youtube.com/watch?v=YoAcSihaRIc&list=RDYoAcSihaRIc)
+* [KARDI(카디) - Not But Disco](https://www.youtube.com/watch?v=kbx0sg4S1cg&list=RDkbx0sg4S1cg).
 * [laura aufranc - sem juízo](https://www.youtube.com/watch?v=lr6Xd8-q9vE). clipe fofíssimo.
 * [linkin park - let you fade](https://www.youtube.com/watch?v=jv-laQtaLjE).
   aqui eles deitaram demais.
@@ -55,7 +57,7 @@ skoob e seguirei anotando minhas leituras por lá.
   aqui é sem palavras. o cara deitou demais.
 
 
-### apresentações/complicações
+### apresentações/compilações
 
 * [bad bunny - NUEVAYoL](https://www.youtube.com/watch?v=T3fMgn9eeBA). fiquei
   obcecada com essa apresentação.

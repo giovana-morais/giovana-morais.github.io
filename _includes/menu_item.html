@@ -1,4 +1,8 @@
 <ul>
+	{%-if item.entries-%}
+		{%-include menu_item.html collection=item.entries-%}
+	{%-endif-%}
+
   {%-for item in include.collection-%}
     <li>
     {%- if item.url -%}
@@ -19,8 +23,5 @@
      -%}
     {%-endif-%}
 
-    {%-if item.entries-%}
-      {%-include menu_item.html collection=item.entries-%}
-    {%-endif-%}
   {%-endfor-%}
 </ul>
