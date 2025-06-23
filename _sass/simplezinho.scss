@@ -1,0 +1,170 @@
+body {
+  background: $bg;
+  font-family: 'Lucida Console', monospace;
+  color: $text;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.site-header {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid $border;
+  margin-bottom: 2rem;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    font-weight: 700;
+    color: $accent;
+    text-decoration: none;
+
+    &-heart {
+      color: #e74c3c;
+    }
+  }
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+
+  a {
+    text-decoration: none;
+    color: $text;
+    position: relative;
+
+    &:hover {
+      color: $accent;
+    }
+
+    &.active {
+      font-weight: 500;
+      color: $accent;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: currentColor;
+      transition: width 0.3s ease;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+}
+
+// Footer
+.site-footer {
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid $border;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+
+  a {
+    color: $accent;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .heart {
+    color: #e74c3c;
+    animation: pulse 1.5s infinite;
+    display: inline-block;
+  }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+// Mobile
+@media (max-width: 600px) {
+  .site-nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.site-nav {
+	border-bottom: 2px solid var(--secondary); // Orange accent line
+}
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pub-item {
+  background: #f3f3f3;
+  padding: 1em;
+  margin-bottom: 0.5em;
+  border-radius: 5px;
+  position: relative;
+  transition: background 0.2s ease-in-out;
+
+  &:nth-child(odd) {
+    background: #ffffff;
+  }
+
+  .pub-title {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+  }
+
+  .pub-authors {
+    color: #444;
+    margin-bottom: 0.2em;
+    font-size: 0.95em;
+  }
+
+  .pub-meta {
+    font-size: 0.85em;
+    color: #777;
+
+    .pub-award {
+      margin-left: 0.5em;
+      color: #d48f00;
+    }
+  }
+
+  .pub-icons {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+
+    a {
+      margin-left: 0.4em;
+      text-decoration: none;
+      font-size: 1em;
+    }
+  }
+}
+
+.pub-icons a[title="Engine"] {
+	  color: #0072ce; // optional highlight color
+	}
