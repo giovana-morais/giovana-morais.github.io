@@ -1,0 +1,43 @@
+---
+layout: default
+title: Publications
+---
+
+<h2>Publications</h2>
+<ul class="pub-list">
+  {% for paper in site.data.publications.conferences %}
+    <li class="pub-item">
+      <div class="pub-title">{{ paper.title }}</div>
+      <div class="pub-authors">{{ paper.authors }}</div>
+      <div class="pub-meta">
+        {{ paper.conference }} · {{ paper.year }}
+        {% if paper.award %}
+          <span class="pub-award">🏆 {{ paper.award }}</span>
+        {% endif %}
+      </div>
+      <div class="pub-icons">
+				{% if paper.code %}<a href="{{ paper.code }}" title="Engine">⚙️</a>{% endif %}
+        {% if paper.bibtex %}<a href="{{ paper.bibtex }}" title="BibTeX">📄</a>{% endif %}
+        {% if paper.pdf_link %}<a href="{{ paper.pdf_link }}" title="PDF">📘</a>{% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>White Papers</h2>
+<ul class="pub-list">
+  {% for paper in site.data.publications.white_papers %}
+    <li class="pub-item">
+      <div class="pub-title">{{ paper.title }}</div>
+      <div class="pub-authors">{{ paper.authors }}</div>
+      <div class="pub-meta">
+        {{ paper.conference }} · {{ paper.year }}
+      </div>
+      <div class="pub-icons">
+				{% if paper.code %}<a href="{{ paper.code }}" title="Engine">⚙️</a>{% endif %}
+        {% if paper.bibtex %}<a href="{{ paper.bibtex }}" title="BibTeX">📄</a>{% endif %}
+        {% if paper.pdf_link %}<a href="{{ paper.pdf_link }}" title="PDF">📘</a>{% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="61.43132mm"
+   height="61.431328mm"
+   viewBox="0 0 61.43132 61.431328"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-31.546987,-53.732528)">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#003333;stroke-width:0.6;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="60.831322"
+       height="60.831322"
+       x="31.846989"
+       y="54.032528"
+       ry="2.4516971" />
+    <text
+       xml:space="preserve"
+       style="font-size:17.6389px;font-family:'Andale Mono';-inkscape-font-specification:'Andale Mono';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#003333;stroke-width:0.600001;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="62.978317"
+       y="89.457825"
+       id="text1"><tspan
+         id="tspan1"
+         style="font-size:17.6389px;fill:#ff0000;fill-opacity:1;stroke-width:0.6"
+         x="62.978317"
+         y="89.457825">PDF</tspan></text>
+  </g>
+</svg>

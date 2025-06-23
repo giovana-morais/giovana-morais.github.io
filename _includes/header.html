@@ -1,0 +1,16 @@
+<header class="site-header">
+	<nav class="site-nav">
+		<a href="{{ '/' | relative_url }}" class="logo">
+			simplezinho
+		</a>
+		<div class="nav-links">
+			{% for item in site.navigation %}
+			<a href="{{ item.link | relative_url }}" {% if page.url == item.link %}class="active"{% endif %}>
+				{{ item.name }}
+			</a>
+				{{ item.authors}}
+
+			{% endfor %}
+		</div>
+	</nav>
+</header>

@@ -1,10 +1,7 @@
-title: giovana morais
-author: Giovana Morais # name of site's author
-email: giovana.vmorais@gmail.com # email of site's author
-url: https://giovana-morais.github.io # root address of the site
-baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: > # description of the site (multiple lines allowed)
-  geradora pseudo-aleatória de ideias questionáveis
+title: "simplezinho"
+author: "Giovana Morais"
+github_repo: "giovana-morais/simplezinho"
+email: giovana.vmorais@gmail.com
 
 permalink: /:slug.html
 
@@ -22,6 +19,16 @@ sass:
 
 highlighter: rouge
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+navigation:
+ # - name: About
+ # #   link: /about
+ # - name: Projects
+ #   link: /projects
+ # - name: CV
+ #   link: /resume
+ # - name: Research
+ #   link: /research
+ - name: Publications
+   link: /publications
+ # - name: Blog
+ #   link: /blog

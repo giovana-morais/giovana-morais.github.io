@@ -1,0 +1,31 @@
+conferences:
+  - title: "Skip That Beat: Augmenting Meter Tracking Models for Underrepresented Time Signatures"
+    authors: Giovana Morais, Brian McFee, Magdalena Fuentes
+    conference: Latin American Music Information Retrieval Workshop (LAMIR)
+    year: 2024
+    bibtex: test
+    pdf_link:
+    code: https://giovana-morais.github.io/skip_that_beat_demo
+  - title: "Tempo vs pitch: understanding self-supervised tempo estimation"
+    authors: Giovana Morais, Matthew E.P. Davies, Marcelo Queiroz, Magdalena Fuentes
+    conference: Internation Conference on Audio, Acoustic and Speech (ICASSP)
+    year: 2023
+white_papers:
+  - title: "Visual Sound Source Localization: Assessing Performance with Both Positive and Negative Audio"
+    authors: Xavier Juanola, Giovana Morais, Gloria Haro, Magdalena Fuentes
+    conference: Sight and Sound, CVPR
+    pdf_link: https://sightsound.org/papers/2025/Xavier_Juanola_Visual_Sound_Source_Localization_Assessing_Performance_with_Both_Positive_and_Negative_Audio.pdf
+    year: 2025
+  - title: "Skip That Beat: Augmenting Meter Tracking Models for Underrepresented Time Signatures"
+    authors: Giovana Morais, Brian McFee, Magdalena Fuentes
+    conference: ISMIR - Late Breaking Demo
+    year: 2024
+    bibtex: test
+    code: https://giovana-morais.github.io/skip_that_beat_demo
+    pdf_link:
+    year: 2025
+  - title: Music Source Separation of Brazilian Percussion
+    authors: Richa Namballa, Giovana Morais, Magdalena Fuentes
+    conference: ISMIR - Late Breaking Demo
+    pdf_link:
+    year: 2025
