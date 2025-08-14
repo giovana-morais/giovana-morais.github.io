@@ -70,6 +70,7 @@ skoob e seguirei anotando minhas leituras por lá.
 * [nicolás y los fumadores](https://www.youtube.com/watch?v=q4PlauQlWb8).
   fumando e tocando com os amigos dentro de uma piscina vazia é literalmente o
   rolê dos meus sonhos. 10/10.
+* [The REAL S**T from 1994 - No DnB || VINYL ONLY Old Skool Jungle mix](https://www.youtube.com/watch?v=ajD2YmOVEtU&list=RDajD2YmOVEtU). com isso aqui tocando eu termino um projeto inteiro em exatamente 1 hora, 15 minutos e 16 segundos.
 * [yamandu costa e dominguinhos](https://www.youtube.com/watch?v=xZfKXFnb6IQ&t=4s). uma obra de
   arte.
 
