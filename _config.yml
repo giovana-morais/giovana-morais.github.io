@@ -20,15 +20,15 @@ sass:
 highlighter: rouge
 
 navigation:
- # - name: About
- # #   link: /about
+ - name: About
+   link: /about
  # - name: Projects
  #   link: /projects
  # - name: CV
  #   link: /resume
  # - name: Research
  #   link: /research
- - name: Publications
+ - name: Research
    link: /publications
  # - name: Blog
  #   link: /blog
