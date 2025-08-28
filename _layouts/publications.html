@@ -12,13 +12,13 @@ title: Publications
       <div class="pub-meta">
         {{ paper.conference }} · {{ paper.year }}
         {% if paper.award %}
-          <span class="pub-award">🏆 {{ paper.award }}</span>
+          <span class="pub-award">{{ paper.award }}</span>
         {% endif %}
-      </div>
-      <div class="pub-icons">
-				{% if paper.code %}<a href="{{ paper.code }}" title="Engine">⚙️</a>{% endif %}
-        {% if paper.bibtex %}<a href="{{ paper.bibtex }}" title="BibTeX">📄</a>{% endif %}
-        {% if paper.pdf_link %}<a href="{{ paper.pdf_link }}" title="PDF">📘</a>{% endif %}
+				<br>
+				{% if paper.code %}<a href="{{ paper.code }}" title="Engine">[code]</a>{% endif %}
+        {% if paper.pdf_link %}<a href="{{ paper.pdf_link }}" title="PDF">[pdf]</a>{% endif %}
+        {% if paper.bibtex %}<a href="{{ paper.bibtex }}" title="BibTeX">[bibtex]</a>{% endif %}
+        {% if paper.demo %}<a href="{{ paper.demo }}" title="Demo">[demo]</a>{% endif %}
       </div>
     </li>
   {% endfor %}
@@ -32,11 +32,11 @@ title: Publications
       <div class="pub-authors">{{ paper.authors }}</div>
       <div class="pub-meta">
         {{ paper.conference }} · {{ paper.year }}
-      </div>
-      <div class="pub-icons">
-				{% if paper.code %}<a href="{{ paper.code }}" title="Engine">⚙️</a>{% endif %}
-        {% if paper.bibtex %}<a href="{{ paper.bibtex }}" title="BibTeX">📄</a>{% endif %}
-        {% if paper.pdf_link %}<a href="{{ paper.pdf_link }}" title="PDF">📘</a>{% endif %}
+				<br>
+				{% if paper.code %}<a href="{{ paper.code }}" title="Engine">[code]</a>{% endif %}
+        {% if paper.pdf_link %}<a href="{{ paper.pdf_link }}" title="PDF">[pdf]</a>{% endif %}
+        {% if paper.bibtex %}<a href="{{ paper.bibtex }}" title="BibTeX">[bibtex]</a>{% endif %}
+        {% if paper.demo %}<a href="{{ paper.demo }}" title="Demo">[demo]</a>{% endif %}
       </div>
     </li>
   {% endfor %}
