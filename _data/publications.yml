@@ -1,21 +1,26 @@
 conferences:
+  - title: "Investigating Modality Contribution in Audio LLMs for Music [UNDER REVIEW]"
+    pdf_link: https://arxiv.org/pdf/2509.20641
+    year: 2025
+    code: https://github.com/giovana-morais/2025_investigating_mmshap
+    demo: https://giovana-morais.github.io/2025_investigating_mmshap_demo
   - title: "Learning from Silence and Noise for Visual Sound Source Localization"
     authors: Xavier Juanola, Giovana Morais, Gloria Haro, Magdalena Fuentes
-    conference: British Machine Vision Conference
-    pdf_link:
+    conference: British Machine Vision Conference (BMVC)
+    pdf_link: https://arxiv.org/abs/2508.21761
     year: 2025
-    code:
+    demo: https://xavijuanola.github.io/SSL-SaN/
+    code: https://github.com/xavijuanola/SSL_SaN
   - title: "Skip That Beat: Augmenting Meter Tracking Models for Underrepresented Time Signatures"
     authors: Giovana Morais, Brian McFee, Magdalena Fuentes
     conference: Latin American Music Information Retrieval Workshop (LAMIR)
     year: 2024
-    bibtex: test
     pdf_link: https://arxiv.org/abs/2502.12972
     code: https://github.com/giovana-morais/skip_that_beat
     demo: https://giovana-morais.github.io/skip_that_beat_demo
   - title: "Tempo vs pitch: understanding self-supervised tempo estimation"
     authors: Giovana Morais, Matthew E.P. Davies, Marcelo Queiroz, Magdalena Fuentes
-    conference: Internation Conference on Audio, Acoustic and Speech (ICASSP)
+    conference: International Conference on Audio, Acoustic and Speech (ICASSP)
     year: 2023
     pdf_link: https://arxiv.org/pdf/2304.06868
     code: https://github.com/giovana-morais/steme
@@ -28,15 +33,13 @@ white_papers:
   - title: "Skip That Beat: Augmenting Meter Tracking Models for Underrepresented Time Signatures"
     authors: Giovana Morais, Brian McFee, Magdalena Fuentes
     conference: ISMIR - Late Breaking Demo
-    year: 2024
-    bibtex: test
     code: https://github.com/giovana-morais/skip_that_beat
     demo: https://giovana-morais.github.io/skip_that_beat_demo
     pdf_link: https://ismir2024program.ismir.net/lbd_485.html
-    year: 2025
+    year: 2024
   - title: Music Source Separation of Brazilian Percussion
     authors: Richa Namballa, Giovana Morais, Magdalena Fuentes
     conference: ISMIR - Late Breaking Demo
     pdf_link: https://arxiv.org/pdf/2503.04995
-    year: 2025
     demo: https://richa-namballa.github.io/mss-demo/
+    year: 2024
