@@ -1,44 +1,44 @@
 ---
 layout: default
-title: Sobre
+title: About
 ---
+[Bio em português](sobre)
 
-# Sobre
+# About
 <img src="assets/images/bio.jpeg" style="float: left; padding-right: 10px;" width="300">
 
-Oi! Meu nome é Giovana e sou cientista da computação pela [Universidade Federal
-de São Carlos](www.dcomp.sor.ufscar.br) (UFSCar Sorocaba) e mestra em ciência da
-computação pela Universidade de São Paulo (USP), onde fiz parte do grupo do
-[COMPMUS](https://compmus.ime.usp.br/) e fui orientada pelo [Prof. Dr. Marcelo
-Queiroz](https://www.ime.usp.br/~mqz/).
-Atualmente, sou doutoranda na
-Universidade de Nova York (NYU) no Music and Audio Research Laboratory, também
-conhecido como [MARL](https://steinhardt.nyu.edu/marl), sob a
-orientação da [Prof. Dra. Magdalena Fuentes](https://magdalenafuentes.github.io/).
+Oi! My name is Giovana. I hold a Bachelors degree in Computer Science by
+[Universidade Federal
+de São Carlos](www.dcomp.sor.ufscar.br) (UFSCar Sorocaba) and a Master's degree
+in Computer Science by
+Universidade de São Paulo (USP), where I was part of the
+[COMPMUS](https://compmus.ime.usp.br/) group and advised by [Prof. Dr. Marcelo
+Queiroz](https://www.ime.usp.br/~mqz/). Nowadays, I'm a PhD Candidate in
+Computer Science at New
+York University (NYU). I am part of the
+Music and Audio Research Laboratory, also known as
+[MARL](https://steinhardt.nyu.edu/marl), where I am advised by
+[Dr. Magdalena Fuentes](https://magdalenafuentes.github.io/).
 
-No que diz respeito à pesquisa, meus interesses principais são nas áreas de
-recuperação de informação musical (MIR), aprendizado de máquina e processamento
-de sinais. Atualmente, estou interessada em interpretar e tentar explicar
+My main research interests are music information retrieval (MIR), machine
+learning, deep learning and explainability. I am currently interested in
+multimodal models (audio-vision, audio-text) and how they use audio information.
+I am particularly interested in latin american repertoires. How surprising,
+right? You can see more about my research on the [Publications
+page](publications).
 
-Gosto de aplicações que são focadas em repertórios latinoamericanos.
-Não é exagero dizer que gosto mais ainda de aplicações e análises focadas em
-música brasileira. Ninguém escapa do viés!
+I love doing research as much as I love doing anything else. I like to
+contribute to open-source code with bug reports, translations, code and
+documentation. To chill, I love to cycle, to spend some time with my family, to
+read, to draw, to stay under the sun like a lizard, to write badly, to eat
+fruits under a tree, to listen to music and to learn about whatever I am
+interested in the moment.
 
-Bom, agora que já dei a minha carteirada, posso falar de outras coisas que
-gosto. No que diz respeito à projetos no geral, eu gosto de contribuir com
-traduções, documentações e, quando possível, código em projetos que uso e que
-acredito. Também tenho os meus próprios projetos aleatórios no GitHub.
 
-Pra espairecer, eu ando de bike por aí, passo um tempo com minha família, estico minha
-gata toda vez que encontro com ela, leio, desenho, tomo sol, escrevo mal, como
-frutinhas, ouço e consumo muito conteúdo de música e de análise musical e, por
-fim, jogo videogame! Eu gosto muito de ser ruim em coisas diferentes. talvez
-você devesse tentar também, é libertador.
-
-Você me encontra...
-* por obrigação no [LinkedIn](https://www.linkedin.com/in/giovana-morais/)
-* por vontade própria no [Mastodon](https://bolha.us/@gvmorais)
-* falando de livros que estou lendo no [Skoob](https://www.skoob.com.br/usuario/7352542).
-* codando projetos aleatórios no [GitHub](https://github.com/giovana-morais)
-* zanzando por aí em [Nova York](https://youtu.be/vk6014HuxcE?t=54)
-* eventualmente zanzando por [São Paulo](https://youtu.be/vwjVbpKlTUc?t=60)
+You can find me
+* by force on [LinkedIn](https://www.linkedin.com/in/giovana-morais/)
+* by my own will on [Mastodon](https://bolha.us/@gvmorais)
+* talking about books I'm reading on [Skoob](https://www.skoob.com.br/usuario/7352542).
+* coding random stuff on [GitHub](https://github.com/giovana-morais)
+* walking around in [New York](https://youtu.be/vk6014HuxcE?t=54)
+* walking from time to time in [São Paulo](https://youtu.be/vwjVbpKlTUc?t=60)
