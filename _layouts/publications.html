@@ -10,7 +10,11 @@ title: Publications
       <div class="pub-title">{{ paper.title }}</div>
       <div class="pub-authors">{{ paper.authors }}</div>
       <div class="pub-meta">
-        {{ paper.conference }} · {{ paper.year }}
+        {% if paper.conference %}
+					{{ paper.conference }} · {{ paper.year }}
+				{% else %}
+					{{ paper.year }}
+				{% endif %}
         {% if paper.award %}
           <span class="pub-award">{{ paper.award }}</span>
         {% endif %}
