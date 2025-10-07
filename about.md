@@ -2,7 +2,7 @@
 layout: default
 title: About
 ---
-[Bio em português](sobre)
+[[Bio em português]](sobre)
 
 # About
 <img src="assets/images/bio.jpeg" style="float: left; padding-right: 10px;" width="300">

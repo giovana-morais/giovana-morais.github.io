@@ -3,7 +3,7 @@ layout: default
 title: Sobre
 ---
 
-[English bio](about)
+[[English bio]](about)
 
 # Sobre
 <img src="assets/images/bio.jpeg" style="float: left; padding-right: 10px;" width="300">
