@@ -7,13 +7,13 @@ title: About
 # About
 <img src="assets/images/bio.jpeg" style="float: left; padding-right: 10px;" width="300">
 
-Oi! My name is Giovana. I hold a Bachelors degree in Computer Science by
+Oi! My name is Giovana. I hold a Bachelor's degree in Computer Science from
 [Universidade Federal
 de São Carlos](www.dcomp.sor.ufscar.br) (UFSCar Sorocaba) and a Master's degree
-in Computer Science by
+in Computer Science from
 Universidade de São Paulo (USP), where I was part of the
 [COMPMUS](https://compmus.ime.usp.br/) group and advised by [Prof. Dr. Marcelo
-Queiroz](https://www.ime.usp.br/~mqz/). Nowadays, I'm a PhD Candidate in
+Queiroz](https://www.ime.usp.br/~mqz/). I'm a PhD Candidate in
 Computer Science at New
 York University (NYU). I am part of the
 Music and Audio Research Laboratory, also known as
