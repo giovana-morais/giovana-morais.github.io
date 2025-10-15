@@ -30,5 +30,5 @@ navigation:
  #   link: /research
  - name: Research
    link: /publications
- # - name: Blog
- #   link: /blog
+ - name: Blog
+   link: /blog
