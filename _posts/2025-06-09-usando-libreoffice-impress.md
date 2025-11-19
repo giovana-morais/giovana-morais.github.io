@@ -163,4 +163,5 @@ achei que minha apresentação ficou bonitinha (dada minha limitação com desig
 e fiquei satisfeita com o resultado. com certeza usarei mais vezes.
 
 ---
+
 [^1]: um disclaimer importante que devo fazer é que eu gosto das minhas apresentações bem minimalistas. não sei como seria o fluxo de trabalho de colegas que preferem algo mais rebuscado ou templates mais complexos.
