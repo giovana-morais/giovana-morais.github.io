@@ -3,9 +3,16 @@ body {
   font-family: 'Lucida Console', monospace;
   color: $text;
   line-height: 1.6;
-  max-width: 800px;
+  max-width: 70%;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+img {
+  max-width: 90%; /* Ensures the image never exceeds its parent's width */
+  height: auto;    /* Maintains the image's aspect ratio */
+  display: block;  /* Helps center and manage block-level spacing */
+  margin: 0 auto;  /* Centers images if they are smaller than the body width */
 }
 
 .site-header {
