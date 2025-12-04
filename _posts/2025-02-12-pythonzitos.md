@@ -31,8 +31,14 @@ print(x.shape)
 ```python
 myList = [1,2,3,4]
 
-with open('path/to/output', 'w') as outfile:
-  outfile.write('\n'.join(str(i) for i in myList))
+with open("path/to/output', "w") as outfile:
+  outfile.write("\n".join(str(i) for i in myList))
+```
+
+## lendo uma lista de um arquivo (separado com \n)
+```python
+with open("path_file.txt", "r") as f:
+    list_content = f.read().splitlines()
 ```
 
 ## limpando cache do pip

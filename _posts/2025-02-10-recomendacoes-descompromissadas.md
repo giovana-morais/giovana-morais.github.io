@@ -64,7 +64,7 @@ clipe foda.
 * [Spiritualized - Ladies And Gentlement We Are Floating In Space](https://www.youtube.com/watch?v=_eCGu2Te3ZA). descobri
   recentemente e sinceramente eu amei. doido doido.
 * [Urias - Carranca](https://open.spotify.com/album/0cdntdbjR5jgoKaIHSXJuK).
-  Urias deu o nome. dou destaque pra DEUS (com Criolo), Voz do Brasil (com Major RD)
+  Urias deu o nome. dou destaque pra DEUS (com Criolo), Voz do Brasil (com Major RD), Paciência (com Don L)
   e Vontade de Voar.
 * [Yago Oproprio - Oproprio](https://www.youtube.com/watch?v=qOS1iEEN8o0). esse
   aqui é sem palavras. o cara deitou demais.
@@ -84,8 +84,10 @@ clipe foda.
   fumando e tocando com os amigos dentro de uma piscina vazia é literalmente o
   rolê dos meus sonhos. 10/10.
 * [The REAL S**T from 1994 - No DnB || VINYL ONLY Old Skool Jungle mix](https://www.youtube.com/watch?v=ajD2YmOVEtU&list=RDajD2YmOVEtU). com isso aqui tocando eu termino um projeto inteiro em exatamente 1 hora, 15 minutos e 16 segundos.
+* [tim bernardes no tiny desk brasil](https://www.youtube.com/watch?v=d25O8USd35Y). sem palavras né. Tim Bernardes é uma joia da nossa geração e a gente tem cuidado muito bem dela. o cara levou uma orquestra inteira pro tiny desk. UMA ORQUESTRA!!!
 * [yamandu costa e dominguinhos](https://www.youtube.com/watch?v=xZfKXFnb6IQ&t=4s). uma obra de
   arte.
+* [1 Hour Persian Jazz – “Gole Sangam” (گل سنگم) | Lo-Fi Jazz Hayedeh](https://www.youtube.com/watch?v=cmiGtPeJ9MM&list=RDcmiGtPeJ9MM). eu nem sabia que jazz persa era uma coisa. que ignorância a minha! 
 
 ---
 
@@ -107,7 +109,7 @@ clipe foda.
   relação disso com regras implícitas de gêneros musicais? muito bom!
 * [LESBIANS](https://www.youtube.com/watch?v=3vevGe-SwOo). solos de guitarra.
 * [How Galileo Broke the Scientific Method](https://www.youtube.com/watch?v=v7a65AvELdU). Filosofia da ciência, discussões a respeito de princípios básicos do método científico e como a fé pode ajudar a fazer ciência.
-* [Is Fast Charging Killing the Battery? A 2-Year Test on 40 Phones](https://www.youtube.com/watch?v=kLS5Cg_yNdM)
+* [Is Fast Charging Killing the Battery? A 2-Year Test on 40 Phones](https://www.youtube.com/watch?v=kLS5Cg_yNdM). pergunta interessante, experimentos e respostas direto ao ponto. a resposta é: carregamento rápido não danifica a bateria. (: 
 
 ---
 
