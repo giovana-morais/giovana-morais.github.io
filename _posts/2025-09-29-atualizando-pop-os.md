@@ -40,6 +40,18 @@ arquivo em outro computador, dar um `python -m http.server` e baixar o
 arquivo na minha máquina (um pendrive também funcionaria) e instalar
 manualmente. Aparentemente, esse problema [não foi só meu](https://github.com/pop-os/cosmic-epoch/issues/2248).
 
+Um problema 1.1 que ocorreu diretamente por causa disso foi o seguinte: assim
+que o `systemd-resolved` foi instalado por meio desse esquema aí de cima, a
+minha VPN da universidade morreu e eu fiquei aproximadamente uns 2 meses
+tentando consertar. Até que hoje (28/01/26) eu tive a brilhante ideia de só
+reinstalar o `systemd`. 
+
+```shell
+sudo apt-get install --reinstall systemd
+```
+
+Acredita que funcionou? Tenho minha VPN de volta!
+
 ## Problema 2: Touchpad morre de tempos em tempos 
 Verdade seja dita, isso já rolava de maneira intermitente na versão
 22.04, mas eu ainda não consegui resolver. É um problema bem estranho, porque
@@ -60,4 +72,5 @@ Não sei exatamente a causa, mas a atualização destruiu o VLC. Também não [f
 comigo](https://github.com/pop-os/cosmic-epoch/issues/2166) e as pessoas
 desenvolvendo o sistema estão tentando nos ajudar a entender o motivo, mas até
 então sem sucesso. Tenho usado o Audacity quando tenho que verificar algum
-arquivo de áudio, mas isso é longe do ideal.
+arquivo de áudio, mas isso é longe do ideal. Esse é mais uma das coisas que nem
+faço ideia de como debugar. 
