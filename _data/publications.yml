@@ -1,9 +1,11 @@
 conferences:
-  - title: "Investigating Modality Contribution in Audio LLMs for Music [UNDER REVIEW]"
+  - title: "Investigating Modality Contribution in Audio LLMs for Music"
     pdf_link: https://arxiv.org/pdf/2509.20641
-    year: 2025
+    authors: Giovana Morais, Magdalena Fuentes
+    year: 2026
     code: https://github.com/giovana-morais/2025_investigating_mmshap
     demo: https://giovana-morais.github.io/2025_investigating_mmshap_demo
+    conference: International Conference on Audio, Acoustic and Speech (ICASSP)
   - title: "Learning from Silence and Noise for Visual Sound Source Localization"
     authors: Xavier Juanola, Giovana Morais, Gloria Haro, Magdalena Fuentes
     conference: British Machine Vision Conference (BMVC)
