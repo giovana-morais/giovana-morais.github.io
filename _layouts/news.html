@@ -1,0 +1,11 @@
+---
+layout: default
+title: News
+---
+
+<h2>News</h2>
+<ul>
+  {% for item in site.data.news %}
+      <li><b>[{{ item.date | date: "%b, %Y" }}]</b> {{ item.news }}</b></li>
+  {% endfor %}
+</ul>

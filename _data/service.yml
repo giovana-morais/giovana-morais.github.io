@@ -1,0 +1,22 @@
+conferences: 
+  - name: International Society for Music Information Retrieval Conference (ISMIR)
+    years: 2024, 2025
+  - name: Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)
+    years: 2025
+  - name: International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
+    years: 2024, 2025
+  - name: Latin American Music Information Retrieval Workshop (LAMIR)
+    years: 2024
+journals:
+  - name: IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)
+    years: 2025
+  - name: Transactions of the International Society for Music Information Retrieval (TISMIR)
+    years: 2025, 2026
+organization:
+  - name: ISMIR Board - Student member
+    years: 2026 - 2028
+  - name: LAMIR - Hackathon and logistics
+    years: 2024
+  - name: LatAm Bish BASH - Student organizer 
+    years: 2023 - Present
+

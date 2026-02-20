@@ -10,52 +10,39 @@ title: Home
 
 <section>
 	<p>I am a PhD Candidate at New York University and a member of the Music and
-	Audio Research (MARL) lab, where I am supervised by Magdalena Fuentes. I am
+	Audio Research Lab (MARL), where I am supervised by Magdalena Fuentes. I am
 	interested in multimodal models (audio-vision, audio-text), explainability
-	techniques, music information retrieval and all of them combined.  
+    techniques, music information retrieval and all of them combined.
 	</p>
-	<p>You can find a longer bio on the <a href="about">About</a>
-	page.</p>
+	<p>You can find a longer bio <a href="about">here</a>.</p>
 </section>
 
 <section>
-	<h3>News</h3>
+    <h3>News</h3>
+    <ul>
+      {% for item in site.data.news %}
+          <li><b>[{{ item.date | date: "%b, %Y" }}]</b> {{ item.news }}</b></li>
+      {% endfor %}
+      <li><a href="news">+ more</a></li>
+    </ul>
+</section>
+
+
+<section>
+	<h3>Academic Service - Reviewer</h3>
 	<ul>
-        <li><b>(Jan/26)</b> Our paper "Investigating Modality Contribution in
-            Audio LLMs for Music" was accepted to ICASSP. Barcelona here we go!
-        <li><b>(Nov/25)</b> The next LatAm BISH Bash will happen on Nov. 17th! Check
-			the <a href="https://www.meetup.com/pt-BR/bish-bash-latam/events/311641195/?eventOrigin=home_next_event_you_are_attending">meetup event</a>
-			for more details.
-		<li><b>(Nov/25)</b> I will be in SANE presenting our poster on
-			"Investigating Modality Contribution in Audio LLMs for Music"
-		<li><b>(Oct/25)</b> I am now a Student Member of the ISMIR Board!
-		<li><b>(Jun/25)</b> I am going to Nashville to present our paper "Visual
-			Sound Source Localization: Assessing Performance with Both Positive and
-			Negative Audio" at the Sight and Sound
-			Workshop.
-	</ul>
-</section>
+      {% for item in site.data.service.conferences %}
+          <li><b>{{ item.name }}</b> - {{ item.years }}</b></li>
+      {% endfor %}
+      {% for item in site.data.service.journals %}
+          <li><b>{{ item.name }}</b> · {{ item.years }}</b></li>
+      {% endfor %}
+    </ul>
 
-<section>
-	<h3>Service</h3>
-	<ul>
-		<li>[2025] Reviewer for ICASSP, WASPAA, ISMIR, TASLP, and TISMIR
-		<li>[2024] Reviewer for ICASSP
-	</ul>
-</section>
-
-<section>
 	<h3>Organization</h3>
-	<ul>
-        <li>[2026-2028] Student member of the ISMIR board.
-		<li>[2024] Hackathon and logistics at <a href="https://lamir-workshop.github.io/">LAMIR</a>
-        <li>[2023-Present] Student organizer of the <a href="https://www.meetup.com/pt-BR/bish-bash-latam/">LatAm Bish BASH</a>
-	</ul>
-</section>
-
-<section>
-	<h3>Teaching</h3>
-	<ul>
-		<li>[2025, 2026] Teaching Assistant for Deep Learning for Media (MPATE-GE-2039)
-	</ul>
+    <ul>
+      {% for item in site.data.service.organization %}
+          <li><b>{{ item.name }}</b> - {{ item.years }}</b></li>
+      {% endfor %}
+  </ul>
 </section>
