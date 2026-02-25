@@ -41,6 +41,8 @@ with open("path_file.txt", "r") as f:
     list_content = f.read().splitlines()
 ```
 
+# pip
+
 ## limpando cache do pip
 
 ```bash
@@ -49,4 +51,12 @@ pip cache remove <pacote>
 
 # limpa tudo
 pip cache purge
+```
+
+## instalando de um repositório do github (com e sem branch)
+```bash
+pip install git+url_repo@branch_repo
+
+# exemplo
+pip install git+https://github.com/giovana-morais/scaper@remove_label_validation
 ```
