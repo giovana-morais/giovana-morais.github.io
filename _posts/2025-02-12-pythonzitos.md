@@ -41,6 +41,17 @@ with open("path_file.txt", "r") as f:
     list_content = f.read().splitlines()
 ```
 
+# pdb
+## modo interativo 
+dentro do pdb, você consegue entrar em um modo "interativo", que te permite
+usar comando multi-linhas pra inspecionar seu código
+
+```shell
+-> pdb.set_trace()
+(Pdb) interact
+*interactive(
+```
+
 # pip
 
 ## limpando cache do pip
