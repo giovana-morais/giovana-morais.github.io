@@ -8,6 +8,15 @@ body {
   padding: 0 1rem;
 }
 
+a {
+  color: $accent;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 img {
   max-width: 90%; /* Ensures the image never exceeds its parent's width */
   height: auto;    /* Maintains the image's aspect ratio */
