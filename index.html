@@ -20,7 +20,7 @@ title: Home
 <section>
     <h3>News</h3>
     <ul>
-      {% for item in site.data.news %}
+      {% for item in site.data.news limit: site.news_home_limit %}
           <li><b>[{{ item.date | date: "%b, %Y" }}]</b> {{ item.news }}</b></li>
       {% endfor %}
       <li><a href="news">+ more</a></li>
