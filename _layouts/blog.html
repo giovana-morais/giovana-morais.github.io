@@ -3,8 +3,24 @@ layout: default
 title: Blog
 ---
 
-<ul>
-	{% for post in site.posts %}
-	<li><a href="{{post.url}}">{{post.title}}</a></li>
-	{% endfor %}
+<h2>Blog</h2>
+<section>
+    <p>não existe uma maneira muito educada de fazer esse preâmbulo, então
+    assuma a melhor das inteções da minha parte ao dizer que: esse blog é meu e
+    feito pra mim. eu escrevo do que quero, na língua que quero e do jeito que
+    quero. nada pessoal.</p>
+</section>
+<ul class="blog-list">
+  {% for post in site.posts %}
+    <li class="blog-item">
+      <div class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+      <div class="blog-meta">
+        <time datetime="{{ post.date }}">{{ post.date | date: site.theme_config.date_format }}</time>
+        {% if post.tag %} · {{ post.tag | join: ", " }}{% endif %}
+      </div>
+      {% if site.theme_config.show_description %}
+        <div class="blog-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</div>
+      {% endif %}
+    </li>
+  {% endfor %}
 </ul>
