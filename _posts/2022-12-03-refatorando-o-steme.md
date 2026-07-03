@@ -4,6 +4,9 @@ layout: post
 date: 2022-12-03
 category: blog
 author: giovanamorais
+tag:
+- pesquisa
+- troubleshooting
 ---
 
 * [Introdução](#introdução)

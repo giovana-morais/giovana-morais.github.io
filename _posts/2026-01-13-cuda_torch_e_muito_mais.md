@@ -5,9 +5,10 @@ date: 2026-01-13
 headerImage: false
 category: blog
 author: giovanamorais
+tag: 
+- cuda
+- troubleshooting
 ---
-
-# Compute Capability Mismatch
 
 tudo começou com esse erro
 

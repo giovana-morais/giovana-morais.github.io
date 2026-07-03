@@ -4,6 +4,10 @@ layout: post
 date: 2023-03-22
 category: blog
 author: giovanamorais
+tag:
+- python
+- aws
+- tensorflow
 ---
 
 se você quer salvar um modelo do tensorflow inteiro no s3, não vai conseguir

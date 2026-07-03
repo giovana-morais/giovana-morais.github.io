@@ -5,6 +5,8 @@ date: 2025-09-26
 headerImage: false
 category: blog
 author: giovanamorais
+tag:
+- escrita
 ---
 
 This semester I decided that I wanted to improve my writing a LOT. I want to

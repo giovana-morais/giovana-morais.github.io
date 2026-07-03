@@ -4,6 +4,9 @@ layout: post
 date: 2022-08-23
 category: blog
 author: giovanamorais
+tag:
+- pessoal
+- aleatório
 ---
 
 1. Telescopic Text[^1]: é um texto que você consegue ir expandindo à medida

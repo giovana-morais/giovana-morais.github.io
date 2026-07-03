@@ -5,6 +5,8 @@ date: 2025-08-11
 headerImage: false
 category: blog
 author: giovanamorais
+tag:
+- python
 ---
 
 três diretórios diferentes:

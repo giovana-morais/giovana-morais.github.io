@@ -5,6 +5,9 @@ date: 2026-01-06
 headerImage: false
 category: blog
 author: giovanamorais
+tag: 
+- pessoal
+- recomendação
 ---
 
 decidi fazer outro desse! vamos ver se vou conseguir manter um ritmo bom

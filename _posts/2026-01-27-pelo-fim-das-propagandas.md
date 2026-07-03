@@ -5,6 +5,8 @@ date: 2026-01-27
 headerImage: false
 category: blog
 author: giovanamorais
+tag: 
+- pessoal
 ---
 
 o fato de ter instalado um adblocker no meu computador há anos faz com que às

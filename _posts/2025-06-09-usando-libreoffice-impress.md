@@ -5,6 +5,9 @@ date: 2025-06-09
 headerImage: false
 category: blog
 author: giovanamorais
+tag:
+- pessoal
+- open-source
 ---
 
 eu queria começar esse texto dizendo que eu testei o LibreOffice Impress porque
