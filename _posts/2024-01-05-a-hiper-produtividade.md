@@ -5,6 +5,9 @@ date: 2024-05-01
 headerImage: false
 category: blog
 author: giovanamorais
+tag:
+- pessoal
+- trabalho
 ---
 
 esse texto é um grande devaneio que me ocorreu depois de uma cerveja num dia

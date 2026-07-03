@@ -5,6 +5,9 @@ date: 2025-09-29
 headerImage: false
 category: blog
 author: giovanamorais
+tag:
+- SO
+- troubleshooting
 ---
 
 # Atualizando pro Pop!_OS 24.04

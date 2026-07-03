@@ -5,6 +5,9 @@ date: 2023-10-17
 headerImage: false
 author: giovanamorais
 category: blog
+tag:
+- python
+- troubleshooting
 ---
 
 # o problema

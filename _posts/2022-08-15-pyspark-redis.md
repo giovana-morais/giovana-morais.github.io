@@ -4,6 +4,8 @@ layout: post
 date: 2022-08-15
 category: blog
 author: giovanamorais
+tag:
+- pyspark
 ---
 
 # O problema

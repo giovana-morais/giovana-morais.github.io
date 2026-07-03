@@ -5,6 +5,8 @@ date: 2025-02-12
 headerImage: false
 category: blog
 author: giovanamorais
+tag:
+- python
 ---
 
 lista desordenada de coisas que sempre preciso fazer mas nunca lembro como fazer

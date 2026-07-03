@@ -5,6 +5,9 @@ date: 2025-02-10
 headerImage: false
 category: blog
 author: giovanamorais
+tag:
+- pessoal
+- recomendação
 ---
 
 eis aqui meu compilado de recomendações sintéticas e descompromissadas de 2025

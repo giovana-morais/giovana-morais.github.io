@@ -4,6 +4,8 @@ layout: post
 date: 2024-01-04
 category: blog
 author: giovanamorais
+tag:
+- pessoal
 ---
 
 mudar de país é uma experiência aterrorizante, embora seja, ao mesmo tempo,

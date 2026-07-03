@@ -5,6 +5,9 @@ date: 2024-03-11
 headerImage: false
 category: abobrinha
 author: giovanamorais
+tag:
+- pessoal
+- recomendação
 ---
 
 **um disclaimer rápido**: esse texto vai ter spoilers de tudo que é possível se

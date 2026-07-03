@@ -5,6 +5,9 @@ date: 2025-06-07
 headerImage: false
 category: blog
 author: giovanamorais
+tag:
+- pessoal
+- pesquisa
 ---
 
 A ciência é vista como uma arte de "certezas": se uma afirmação tem respaldo

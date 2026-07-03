@@ -4,6 +4,8 @@ layout: post
 date: 2022-11-09
 category: blog
 author: giovanamorais
+tag:
+- pyspark
 ---
 
 O `coalesce` e o `repartition` são dois métodos do PySpark (e, consequentemente

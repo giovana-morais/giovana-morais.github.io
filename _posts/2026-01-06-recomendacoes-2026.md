@@ -5,6 +5,9 @@ date: 2026-01-06
 headerImage: false
 category: blog
 author: giovanamorais
+tag: 
+- pessoal
+- recomendação
 ---
 
 decidi fazer outro desse! vamos ver se vou conseguir manter um ritmo bom
@@ -16,7 +19,7 @@ decidi fazer outro desse! vamos ver se vou conseguir manter um ritmo bom
 
 ### álbuns
 * [Criolo, Amaro & Dino | Full Álbum](https://www.youtube.com/watch?v=lMF7OP_uxyw). qual fórmula quântica que justifica essa semântica de extermínio?
-* 
+
 ### single
 * [AJULLIACOSTA - Nasci Pra Ser | A COLORS SHOW](https://www.youtube.com/watch?v=hivSZ8uBnug). essa se tornou minha música oficial de PEDALAR COM TODAS AS MINHAS FORÇAS. honestamente, que mulher. a mediocridade espera da porta pra fora. 
 
@@ -30,12 +33,16 @@ decidi fazer outro desse! vamos ver se vou conseguir manter um ritmo bom
 * [Sungazer Plus Live at the Blue Note (full concert)](https://www.youtube.com/watch?v=MCNZ_YpQzfI)
 
 ### ensaios/opinião
+* [How Fascists Construct Scientific Ignorance](https://www.youtube.com/watch?v=HTh4y2wABrA). nada é neutro, nem pesquisa. o que é pesquisado influencia como uma coisa é aceita ou não na sociedade. o que deixa de ser pesquisado pode ser marginalizado. quem escolhe o que se pesquisa? 
 * [Suno, AI Music and Bad Future.](https://www.youtube.com/watch?v=U8dcFhF0Dlk). eu gosto muito do Adam Neely, acho ele um cara bem inteligente. nesse vídeo ele aborda pontos de vista diferentes sobre uma mesma questão, que é o uso da IA generativa pra música. achei bem interessante e gostei que ele trouxe uma perspectiva histórica sobre um movimento de tecno-otimismo que aconteceu na Itália.
-* [Datacenters Behaving Like Acoustic Weapons](https://www.youtube.com/watch?v=_bP80DEAbuo). além dos problemas ambientais, como o peso na rede elétrica e a poluição de água, os data centers acabaram de desbloquear um novo problema: poluição sonora e exposição a infrassom. 
 * [The Internet, Reinvented.](https://www.youtube.com/watch?v=XTnYVh7K6xQ). a internet open-source é real. toda vez que vejo vídeos assim tenho mais vontade de montar uma rádio pirata (relacionado, mas nem tanto, hehe).
 * [PLURIBUS: Qual o PREÇO de ser ASSIMILADO?](https://www.youtube.com/watch?v=PL689PzBvj0). uma análise de uma série que eu gostei muito (pelo menos da primeira temporada) por uma pessoa que eu também gosto muito.
 * [Los Hermanos, o Esquerdomacho e a Classe Média: Como o Indie Virou Marcador de Distinção no Brasil](https://www.youtube.com/watch?v=uNM_3gVjVmU). não conhecia o Filipe Boni, mas me inscrevi no canal depois dessa. vídeo muito bom dando um contexto histórico pro nascimento e crescimento do Los Hermanos no Brasil. também discute como o "MPB de apartamento" virou um marcador da classe média e de "superioridade cultural". seria o Marcelo Camelo o primeiro esquerdomacho do Brasil?  
 * [Saw | ContraPoints](https://www.youtube.com/watch?v=uiGIbdrQjbI). o terror, a tortura, a violência e o sadismo no cinema. por que algumas violências são moralmente aceitáveis nas telas? 
+
+### explicativos
+* [Why AI is like a (Clever Hans) Horse - Computerphile](https://www.youtube.com/watch?v=0GQ2RP-25gM). esse vídeo parece que foi feito pra mim. o Clever Hans é um efeito em que uma máquina aprende atalhos pra chegar num dado resultado. nesse vídeo, esse fenômeno é explicado por meio de um classificador de gênero musical! um paper do Bob Sturm!! tudo de bom.
+* [Datacenters Behaving Like Acoustic Weapons](https://www.youtube.com/watch?v=_bP80DEAbuo). além dos problemas ambientais, como o peso na rede elétrica e a poluição de água, os data centers acabaram de desbloquear um novo problema: poluição sonora e exposição a infrassom. 
 
 
 ## posts
