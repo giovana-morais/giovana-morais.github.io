@@ -6,7 +6,7 @@ title: Sobre
 [[English bio]](about)
 
 # Sobre
-<img src="assets/images/bio.jpeg" style="float: left; padding-right: 10px;" width="300">
+<img class="avatar" src="assets/images/bio.jpeg" style="float: left; padding-right: 10px;" width="300">
 
 Oi! Meu nome é Giovana e sou cientista da computação pela [Universidade Federal
 de São Carlos](www.dcomp.sor.ufscar.br) (UFSCar Sorocaba) e mestra em ciência da

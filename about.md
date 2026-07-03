@@ -5,7 +5,7 @@ title: About
 [[Bio em português]](sobre)
 
 # About
-<img src="assets/images/bio.jpeg" style="float: left; padding-right: 10px;" width="300">
+<img class="avatar" src="assets/images/bio.jpeg" style="float: left; padding-right: 10px;" width="300">
 
 Oi! My name is Giovana. I hold a Bachelor's degree in Computer Science from
 [Universidade Federal

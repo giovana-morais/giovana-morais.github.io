@@ -15,6 +15,10 @@ img {
   margin: 0 auto;  /* Centers images if they are smaller than the body width */
 }
 
+.avatar {
+  border-radius: 50%;
+}
+
 .site-header {
   padding: 1.5rem 0;
   border-bottom: 1px solid $border;
