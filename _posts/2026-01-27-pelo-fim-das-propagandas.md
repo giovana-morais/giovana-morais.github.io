@@ -41,3 +41,9 @@ não é possível que tudo que a gente tem desenvolvido esse tempo todo seja
 apenas pra mostrar mais propaganda e propaganda o tempo todo. 
 
 eu hein. bora melhorar.
+
+
+---
+
+update (12/08/2026): hoje eu abri o youtube num computador sem adblock. a PRIMEIRA coisa que 
+apareceu foi uma propaganda num player. 
