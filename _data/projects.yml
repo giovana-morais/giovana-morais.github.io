@@ -1,0 +1,21 @@
+english:
+  - title: "LatAm BISH Bash"
+    description: "website for compiling the LatAm BISH Bash meetings and resources"
+    website: https://giovana-morais.github.io/latam_bish_bash
+portugues:
+  - title: "Dicas de matplotlib (pt-br)"
+    description: "tradução não oficial das dicas de matplotlib para português. feito para a PyLadies Brasil."
+    website: https://github.com/pyladies-brazil/matplotlib-dicas
+    sources:
+      - name: arquivos em pdf
+        link: /assets/matplotlib/pdf
+      - name: arquivos em png
+        link: /assets/matplotlib/png
+      - name: documento original
+        link: https://github.com/matplotlib/cheatsheets
+  - title: "COMPMUS Brasil"
+    description: "compilado de materiais, grupos e conteúdos de Computação Musical no Brasil (abrange também alguns conteúdos da América Latina)"
+    website: https://github.com/giovana-morais/compmus_brasil
+  - title: "GuaianaCity" 
+    description: "mapa interativo com material coletado pela Dra. Ana Basílio para sua tese de doutorado"
+    website: https://giovana-morais.github.io/vivencias_quebrada/

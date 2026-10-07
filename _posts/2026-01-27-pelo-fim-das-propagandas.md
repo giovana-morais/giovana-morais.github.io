@@ -35,13 +35,18 @@ meio do mais novo modelo de geração de vídeo. as suas informações estão se
 vendidas pra que empresas possam te convencer a comprar por meio de propagandas
 hiper especializadas. 
 
-propaganda pra cima, propaganda pra baixo. você é só o que você compra? 
+propaganda pra cima, propaganda pra baixo. você é só o que você compra? o que
+mais a gente precisa vender?
 
 não é possível que tudo que a gente tem desenvolvido esse tempo todo seja
 apenas pra mostrar mais propaganda e propaganda o tempo todo. 
 
 eu hein. bora melhorar.
 
+---
 
-update (07/10/26): agora minha tv mosta, antes mesmo dos meus aplicativos instalados, 
+update (12/08/2026): hoje eu abri o youtube num computador sem adblock. a PRIMEIRA coisa que 
+apareceu foi uma propaganda num player. 
+
+update (07/10/26): agora minha tv mostra, antes mesmo dos meus aplicativos instalados, 
 um aplicativo "patrocinado". como se as buscas já não tivessem sido dominadas por isso.

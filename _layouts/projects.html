@@ -1,0 +1,32 @@
+---
+layout: default
+title: Projects
+---
+
+<h2>Projects</h2>
+
+<h3>English</h3>
+<ul class="pub-list">
+  {% for project in site.data.projects.english %}
+    <li class="pub-item">
+      <div class="pub-title">{{ project.title }}</div>
+      {% if project.description %}<div class="pub-authors">{{ project.description }}</div>{% endif %}
+      <div class="pub-meta">
+        {% if project.website %}<a href="{{ project.website }}" title="Website">[website]</a>{% endif %}
+        {% for source in project.sources %}<a href="{{ source.link }}" title="{{ source.name }}">[{{ source.name }}]</a>{% endfor %}
+      </div>
+    </li>
+  {% endfor %}
+
+<h3>Português</h3>
+  {% for project in site.data.projects.portugues %}
+    <li class="pub-item">
+      <div class="pub-title">{{ project.title }}</div>
+      {% if project.description %}<div class="pub-authors">{{ project.description }}</div>{% endif %}
+      <div class="pub-meta">
+        {% if project.website %}<a href="{{ project.website }}" title="Website">[website]</a>{% endif %}
+        {% for source in project.sources %}<a href="{{ source.link }}" title="{{ source.name }}">[{{ source.name }}]</a>{% endfor %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>

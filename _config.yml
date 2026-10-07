@@ -20,8 +20,8 @@ highlighter: rouge
 navigation:
  - name: About
    link: /about
- # - name: Projects
- #   link: /projects
+ - name: Projects
+   link: /projects
  # - name: CV
  #   link: /resume
  - name: Research
