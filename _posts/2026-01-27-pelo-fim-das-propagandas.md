@@ -35,9 +35,13 @@ meio do mais novo modelo de geração de vídeo. as suas informações estão se
 vendidas pra que empresas possam te convencer a comprar por meio de propagandas
 hiper especializadas. 
 
-propaganda pra cima, propaganda pra baixo. você é só o que você compra?
+propaganda pra cima, propaganda pra baixo. você é só o que você compra? 
 
 não é possível que tudo que a gente tem desenvolvido esse tempo todo seja
 apenas pra mostrar mais propaganda e propaganda o tempo todo. 
 
 eu hein. bora melhorar.
+
+
+update (07/10/26): agora minha tv mosta, antes mesmo dos meus aplicativos instalados, 
+um aplicativo "patrocinado". como se as buscas já não tivessem sido dominadas por isso.
