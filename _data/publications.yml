@@ -26,6 +26,21 @@ conferences:
     year: 2023
     pdf_link: https://arxiv.org/pdf/2304.06868
     code: https://github.com/giovana-morais/steme
+under_review:
+  - title: "TRACE: Trustworthy Reasoning from Acoustic Cues and Evidence"
+    authors: Giovana Morais, Yujin Kim, Mehmet Atilay Kucukoglu, Magdalena Fuentes
+    conference: AAAI Conference on Artificial Intelligence (AAAI)
+    year: 2027
+    pdf_link: 
+  - title: "MixCards: Evaluating Structured Descriptions of Multi-Source Sound Scenes"
+    authors: Sripathi Sridhar, Yujin Kim, Giovana Morais, Liang-Yuan Wu, Mehmet Atilay Kucukoglu, Prem Seetharaman, Lloyd May, Mark Cartwright, Magdalena Fuentes Magdalena Fuentes, Mark Carthwright
+    conference: International Conference Learning Representations (ICLR) 
+    year: 2027
+  - title: "FoleyForge: Free-form, Controllable, Rectified-flow Editing of Sound Effects" 
+    authors: Giovana Morais, Hugo Flores García, Prem Seetharaman, Johanes Imort, Justin Salamon, Magdalena Fuentes, Oriol Nieto 
+    conference: International Conference on Audio, Acoustic and Speech (ICASSP)
+    year: 2027
+    demo: https://giovana-morais.github.io/2027_icassp_foleyforge_demo/
 white_papers:
   - title: "Visual Sound Source Localization: Assessing Performance with Both Positive and Negative Audio"
     authors: Xavier Juanola, Giovana Morais, Gloria Haro, Magdalena Fuentes
