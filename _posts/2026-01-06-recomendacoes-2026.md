@@ -30,6 +30,7 @@ decidi fazer outro desse! vamos ver se vou conseguir manter um ritmo bom. eu sem
 * [Die Spitz - "RIDING WITH MY GIRLS" Official Music Video](https://www.youtube.com/watch?v=zVPFp4s2L_s). minha sobrinha que me mostrou essa pedrada. fiquei obcecada com a banda. esse vídeo em particular é muito bom!
 
 ### playlists/compilação/shows 
+* [can sad - Claque Cultural 2026 - Teatro Sesc Centro](https://www.youtube.com/watch?v=zpkq-kUk0Ng&t=119s). brutalismo instrumental. delícia delícia delícia. trêz vezes delícia[^1].
 * [Club Carter Radio](https://www.youtube.com/watch?v=VYIwPQ58dLw). coloquei um vídeo em específico, mas o canal todo vale a pena. é como se fosse uma rádio. coloco às vezes pra lavar uma louça e ouvir música boa sem ter que pensar muito a respeito.
 * [modest by default : Rashadat \[رشادت\] (TAPE RIP - 1979)](https://www.youtube.com/watch?v=qEWtlImc2zM)
 * [your dads favorite ambient jungle set](https://www.youtube.com/watch?v=RcM8SWeBck0). música pra codar.
@@ -62,7 +63,15 @@ decidi fazer outro desse! vamos ver se vou conseguir manter um ritmo bom. eu sem
 * [Breaking the Speel of Vibe Coding](https://www.fast.ai/posts/2026-01-28-dark-flow/). (inglês) como o vibe coding faz com a gente se sinta em um estado de "flow" (concentração extrema pra resolver um desafio), mas como essa sensação é mais parecida com vício em apostas. 
 * [Lista de predições do Elon Musk pros veículos autônomos da Tesla](https://en.wikipedia.org/wiki/List_of_predictions_for_autonomous_Tesla_vehicles_by_Elon_Musk). página engraçada da wikipédia que mostra todas as vezes que o Elon Musk prometeu que teríamos carros autônomos e quais dessas promessas foram concretizadas.
 * [Anatomy of AI](https://anatomyof.ai/). visualização foda mostrando todo o ecossistema necessário pra que exista um sistema de IA. 
+* [Stop Blowhard Syndrome](https://xuhulk.tumblr.com/post/110549967516/stop-blowhard-syndrome). esse post de 2015 foi tudo pra mim. às vezes a síndrome do impostor não é síndrome do impostor, mas sim um pensamento realista. em contrapartida, essa sensação ilusória de superioridade de algumas pessoas, que acreditamque realmente podem fazer tudo, devia ser algo que olhamos de maneira mais crítica.
+* [Toolmen](https://aworkinglibrary.com/writing/toolmen). 
 
 ## recursos
 * [Mobilizon](https://mobilizon.org/). como um meetup, mas federado. gostei da ideia, quero testar.
 * [Critical AI](https://olivia.science/ai/) 
+* [Against AI](https://against-a-i.com/). uma coleção de materiais para ensino compartilhados por uma série de outros educadores e educadores. achei um movimento interessante. 
+
+
+---
+
+* [^1]: referência direta ao bala desejo. sim, sim, sim. três vezes sim.
