@@ -13,28 +13,38 @@ tag:
 decidi fazer outro desse! vamos ver se vou conseguir manter um ritmo bom. eu sempre esqueço de logar as coisas que gosto.
 
 ## jogos 
-* [sifu (ainda em andamento)](https://www.youtube.com/watch?v=1FQ1YO3Ks2U). eu finalmente consegui passar a primeira fase sem morrer, então eu diria que é promissor.
+* [sifu (ainda em andamento, será que um dia terminarei?)](https://www.youtube.com/watch?v=1FQ1YO3Ks2U). eu finalmente consegui passar a primeira fase sem morrer, então eu diria que é promissor.
 * [moving out](https://www.youtube.com/watch?v=f_IuHhgUlt4). tipo overcooked, mas muito menos estressante e com sofás voando por janelas. muito divertido pra jogar de várias pessoas.
-* [horizon (PS5)](https://www.youtube.com/watch?v=u4-FCsiF5x4). estou obcecada. tudo nesse jogo é perfeito. ainda não terminei, mas fazia um tempo que eu não ficava obcecada com um jogo como fiquei com Far Cry.
+* [horizon (PS5)](https://www.youtube.com/watch?v=u4-FCsiF5x4). estou obcecada.
+  tudo nesse jogo é perfeito. a história é muito complexa, mas você acompanha
+  ela de forma gradual, então tudo faz sentido. gostei muito da jogabilidade e
+  gostei muito dos personages do jogo. a
+  última vez que curti um jogo assim foi com o Far Cry! recomendo. 
 
 ## música
 
 ### álbuns
 * [Criolo, Amaro & Dino | Full Álbum](https://www.youtube.com/watch?v=lMF7OP_uxyw). qual fórmula quântica que justifica essa semântica de extermínio?
-* [ RIO KOSTA]. indicação da minha consagrada. ouvi pedalando num dia ensolarado. maior vibe.
+* [RIO KOSTA]. indicação da minha consagrada. ouvi pedalando num dia ensolarado. maior vibe.
 
 ### single
+* [Andre Antunes - THEY ALL WANT US GONE](https://www.youtube.com/watch?v=WDOoZBq0nVs). brabo. é a raiva que a gente precisa.
 * [AJULLIACOSTA - Nasci Pra Ser | A COLORS SHOW](https://www.youtube.com/watch?v=hivSZ8uBnug). essa se tornou minha música oficial de PEDALAR COM TODAS AS MINHAS FORÇAS. honestamente, que mulher. a mediocridade espera da porta pra fora. 
 * [mais feliz - Zeca Pagodinho](https://www.youtube.com/watch?v=JE0JfXTQkBs). eu não conhecia essa música até pouco tempo atrás, quando saí perguntando pros meus amigos qual música eles achavam que era muito romântica e vários me falaram dessa. que letra gracinha. eu amei.
 * [REVOLVER BLAST - DELUHI](https://www.youtube.com/watch?v=FK2ys_7Ndfk). revivi esse recentemente da minha época de obsessão por j-rock. eu amo essa música. ela é basicamente energia pura. 
 * [Die Spitz - "RIDING WITH MY GIRLS" Official Music Video](https://www.youtube.com/watch?v=zVPFp4s2L_s). minha sobrinha que me mostrou essa pedrada. fiquei obcecada com a banda. esse vídeo em particular é muito bom!
 
 ### playlists/compilação/shows 
+antes de tudo eu gostaria de dizer que eu tenho vontade de colocar todos os vídeos do Tiny Desk Brasil aqui. eles têm arrasado e trazido só artista foda. 
+
 * [can sad - Claque Cultural 2026 - Teatro Sesc Centro](https://www.youtube.com/watch?v=zpkq-kUk0Ng&t=119s). brutalismo instrumental. delícia delícia delícia. trêz vezes delícia[^1].
 * [Club Carter Radio](https://www.youtube.com/watch?v=VYIwPQ58dLw). coloquei um vídeo em específico, mas o canal todo vale a pena. é como se fosse uma rádio. coloco às vezes pra lavar uma louça e ouvir música boa sem ter que pensar muito a respeito.
+* [Don L : Tiny Desk Brasil](https://www.youtube.com/watch?v=YrPwqCMTkrk). eu amo o Don L. sem mais.
 * [modest by default : Rashadat \[رشادت\] (TAPE RIP - 1979)](https://www.youtube.com/watch?v=qEWtlImc2zM)
 * [your dads favorite ambient jungle set](https://www.youtube.com/watch?v=RcM8SWeBck0). música pra codar.
 * [Age vs Techno Was Never a Fair Fight… This Brutal Set Proves Why](https://www.youtube.com/watch?v=STh7kAk9EAk). mentalmente, moro aqui.
+* [Mateus Fazeno Rock : Tiny Desk Brasil](https://www.youtube.com/watch?v=aq_S6glf8Gw). jesus não voltará. o rock está vivíssimo. 
+* [Marina Sena : Tiny Desk Brasil](https://www.youtube.com/watch?v=2ZvSsNn6FsY). gente, pelo amor de deus, a Marina Sena deu um show aqui. cada instrumento toca só o que precisa tocar e mesmo assim traz um peso absurdo pra música. uma delícia. fiquei hipnotizada pela música e por ela. queria ouvir pela primeira vez de novo. 
 * [Memory System | Ambient Swim | Liquid DnB, Jungle, Breakcore](https://www.youtube.com/watch?v=H1d_aEantvc)
 * [Sungazer Plus Live at the Blue Note (full concert)](https://www.youtube.com/watch?v=MCNZ_YpQzfI)
 

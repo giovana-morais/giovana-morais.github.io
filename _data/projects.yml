@@ -3,6 +3,9 @@ english:
     description: "website for compiling the LatAm BISH Bash meetings and resources"
     website: https://giovana-morais.github.io/latam_bish_bash
 portugues:
+  - title: "Ciência de Dados Responsável"
+    description: "mini-curso de ciência de dados responsável, ministrado pela primeira vez na UFSCar Sorocaba."
+    website: https://giovana-morais.github.io/ciencia_de_dados_responsavel
   - title: "Dicas de matplotlib (pt-br)"
     description: "tradução não oficial das dicas de matplotlib para português. feito para a PyLadies Brasil."
     website: https://github.com/pyladies-brazil/matplotlib-dicas
